@@ -1,0 +1,44 @@
+Movie = {
+    "movies" : [
+        {
+            "title": "School of Rock",
+            "genre": "music"
+        },
+        {
+            "title": "Whiplash",
+            "genre": "music"
+        },
+        {
+            "title": "The Shawshank Redemption",
+            "genre": "drama"
+        },
+        {
+            "title": "The Avengers",
+            "genre": "hero"
+        },
+        {
+            "title": "Avengers: Age of Ultron",
+            "genre": "hero"
+        },
+        {
+            "title": "Avengers: Infinity War",
+            "genre": "hero"
+        },
+        {
+            "title": "Avengers: Endgame",
+            "genre": "hero"
+        },
+        {
+            "title": "스즈메의 문단속",
+            "genre": "animation"
+        },
+        {
+            "title": "센과 치히로의 행방불명",
+            "genre": "animation"
+        },
+        {
+            "title": "Fast X",
+            "genre": "action"
+        }
+    ]
+}
