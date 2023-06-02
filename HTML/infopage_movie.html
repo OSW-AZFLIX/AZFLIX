@@ -1,0 +1,473 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/infopage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<style>
+.slick-initialized .swipe-tab-content {
+	position: relative;
+	height: 1500px;
+}
+
+.slick-initialized .swipe-tab {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 135px;
+	background: none;
+	border: 0;
+	color: #757575;
+	cursor: pointer;
+	text-align: center;
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+	transition: all 0.5s;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: #09529b !important;
+}
+
+.slick-prev {
+	left: 3% !important;
+	z-index: 1;
+}
+.slick-next {
+	right: 3% !important;
+	z-index: 1;
+}
+
+.slick-prev:before,.slick-next:before{
+	font-size: 45px;
+	color:#fff !important;
+}
+
+.slick-initialized .swipe-tab.active-tab {
+	border-bottom-color: #000;
+	color: #000;
+	font-weight: bold;
+}
+
+.movie_contentsBox {
+	padding: 25px;
+	background: #00081d;
+}
+
+.swipe-tabs-container{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 40%;
+	overflow: hidden;
+}
+
+.movie_main_image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.movie_detail{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+.movie_main_banner{
+	width:170px;
+}
+
+
+.plot{
+	padding-top:30px;
+	width:400px;
+	color:#fff;
+}
+
+
+.pop_image{
+	width: 270px;
+	height: 140px;
+    background-size: cover;
+}
+
+
+/*btn_style*/
+.btn-default {
+    color: #333;
+    background-color: #fff !important;
+}
+.btn-default:focus {
+    color: #fff;
+    background-color: #fff;
+}
+.playBtn:hover {
+    color: #333;
+    background-color: #d4d4d4 !important;
+}
+.playBtn:active {
+    color: #333;
+    background-color: #d4d4d4 !important;
+}
+
+
+.informBtn{
+	color : #fff !important;
+	background-color: #4f4e4d !important;
+}
+
+.informBtn:hover {
+    color: #333;
+    background-color: #8C8C8C !important;
+}
+.informBtn:active {
+    color: #333;
+    background-color: #8C8C8C !important;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 767px) {
+	.movie_detail, .movie_main_banner {
+		position: absolute;
+		top: 1vh;
+		left: 2vw;
+		max-width: 40px;
+	}
+	
+	.pop_image{
+		width: 100px;
+		height: 50px;
+		background-size: cover;
+	}
+	
+	.slick-initialized .swipe-tab {
+		height: 50px;
+	}
+}
+
+</style>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
+	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
+		<div class="login_wrap" style="float:right; padding-top:1%;">
+			<a href="Login.html"><button type="button" class="btn btn-danger" style="font-size:14px;">로그인</button></a>
+			<a href="SignUp.html"><button type="button" class="btn btn-danger" style="font-size:14px;">회원가입</button></a>
+		</div>
+		<div id="header">
+			<h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a></h1>
+		</div>
+	</div>
+
+
+	<!--contents_box(로그인 후 popular movie 정보)-->
+	<div class="movie_contentsBox">
+		<div class="swipe-tabs-container">
+			<!--s:movie contents1-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents1.jpg">
+				<div class="movie_detail">
+					<div class="plot">
+						<img class="movie_main_banner" src="../IMG/popular_movie/contents_title1.png">
+						아들과 샌프란시스코에 간 엽문. 그곳에서는 자신의 제자이자 유명인이 된 이소룡과 무술 고수들이 서로 대립하고 있는데. 엽문은 이들을 화해시킬 수 있을까?
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents1-->
+			
+			<!--s:movie contents2-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents2.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title2.png">
+					<div class="plot">
+						"'루니'의 새 집사를 찾아라!" 동생 같은 반려견 '루니'를 위해 정시 퇴근에 진심인 '민수'. 결혼을 앞둔 그에게 닥친 집사 인생 조기 로그아웃 위기! 뜻밖의 '견'명적인 만남! 함께 하면 개신나고! 개따뜻한! 개귀엽 버라이어티 무비!
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents2-->
+			
+			<!--s:movie contents3-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents3.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title3.png">
+					<div class="plot">
+						출입을 금할지라도 그곳의 이야기마저 가두지 말자이 세상 모든 [관계자 외 출입금지] 구역에선 어떤 일들이 벌어지고 있을까?
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents3-->
+			
+			<!--s:movie contents4-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents4.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title4.png">
+					<div class="plot">
+						'4세대 라이브 원톱'으로 평가받는 그룹 클라씨를 배출한 방과후 설렘의 두 번째 시즌으로 실력파 케이팝 보이그룹 탄생을 위한 글로벌 프로젝트
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents4-->
+			
+			<!--s:movie contents5-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents5.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title5.png">
+					<div class="plot">
+						어디로 튈지 모르는 촌철살인의 입담으로 게스트들을 무장해제 시켜 진짜 이야기를 끄집어내는 독보적 토크쇼
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents5-->
+			
+			<!--s:movie contents6-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents6.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title6.png">
+					<div class="plot">
+						'4세대 라이브 원톱'으로 평가받는 그룹 클라씨를 배출한 방과후 설렘의 두 번째 시즌으로 실력파 케이팝 보이그룹 탄생을 위한 글로벌 프로젝트
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents6-->
+			
+			<!--s:movie contents7-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents7.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title7.png">
+					<div class="plot">
+						우주여행을 하던 '핑크퐁'과 아기상어 '올리', 갑자기 날아온 운석에 부딪혀 우주선의 별이 조각나버렸어요. 우리 함께 잃어버린 별 조각을 찾기 위해 5개의 행성으로 신나는 우주 모험을 떠나요!
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents8-->
+			
+			<!--s:movie contents8-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents8.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title8.png">
+					<div class="plot">
+						해리 포터는 위압적인 버논 숙부와 냉담한 이모 페투니아, 욕심 많고 버릇없는 사촌 더즐리 밑에서 갖은 구박을 견디며 계단 밑 벽장에서 생활한다. 이모네 식구들 역시 해리와의 동거가 불편하기는 마찬가지.
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents8-->
+			
+			<!--s:movie contents9-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents9.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title9.png">
+					<div class="plot">
+						결혼을 간절히 원하는 솔로 남녀들이 모여 사랑을 찾기 위해 고군분투하는 극사실주의 데이팅 프로그램
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents9-->
+			
+			<!--s:movie contents10-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents10.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title10.png">
+					<div class="plot">
+						타고난 스토리텔러 설민석이 펼치는 상상 그 이상의 <신들의 사생활> 고전 필독서와 예능의 핫한 만남, Again 그리스 로마 신화 시즌 2
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+						
+						<button type="button" class="btn btn-default btn-lg informBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ⓘ 상세정보
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents10-->
+
+		</div>
+	</div>
+	<div class="popular_movie">
+		<div class="swipe-tabs">
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner1.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner2.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner3.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner4.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner5.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner6.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner7.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner8.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner9.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner10.jpg"></div>
+			
+		</div>
+	</div>
+
+
+	<script>
+	$(function () {
+		'use strict';
+
+		var $swipeTabsContainer = $('.swipe-tabs'),
+			$swipeTabs = $('.swipe-tab'),
+			$swipeTabsContentContainer = $('.swipe-tabs-container'),
+			currentIndex = 0,
+			activeTabClassName = 'active-tab';
+
+		$swipeTabsContainer.on('init', function(event, slick) {
+			$swipeTabsContentContainer.removeClass('invisible');
+			$swipeTabsContainer.removeClass('invisible');
+
+			currentIndex = slick.getCurrent();
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+		});
+
+		$swipeTabsContainer.slick({
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			arrows: false,
+			infinite: false,
+			speed: 500,
+			autoplay : true,
+			autoplaySpeed : 1500,
+			swipeToSlide: true,
+			draggable: true,
+			touchThreshold : 100,
+			focusOnSelect : true,
+			focusOnChange : true
+		});
+
+		$swipeTabsContentContainer.slick({
+			asNavFor: $swipeTabsContainer,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: true,
+			infinite: false,
+			speed: 500,
+			autoplay : true,
+			autoplaySpeed : 1500,
+			swipeToSlide: true,
+			draggable: true,
+			touchThreshold : 100,
+			focusOnSelect : true,
+			focusOnChange : true
+		});
+
+
+		$swipeTabs.on('click', function(event) {
+			// gets index of clicked tab
+			currentIndex = $(this).data('slick-index');
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex +']').addClass(activeTabClassName);
+			$swipeTabsContainer.slick('slickGoTo', currentIndex);
+			$swipeTabsContentContainer.slick('slickGoTo', currentIndex);
+		});
+
+		//initializes slick navigation tabs swipe handler
+		$swipeTabsContentContainer.on('swipe', function(event, slick, direction) {
+			currentIndex = $(this).slick('slickCurrentSlide');
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+		});
+	});
+	</script>
+</html>
