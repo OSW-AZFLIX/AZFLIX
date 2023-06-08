@@ -1,0 +1,1055 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/infopage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<style>
+.slick-initialized .swipe-tab-content {
+	position: relative;
+	height: 1500px;
+}
+
+.slick-initialized .swipe-tab {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 135px;
+	background: none;
+	border: 0;
+	color: #757575;
+	cursor: pointer;
+	text-align: center;
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+	transition: all 0.5s;
+}
+
+
+
+.slick-prev:before, .slick-next:before {
+	color: #09529b !important;
+}
+
+.slick-prev {
+	left: 3% !important;
+	z-index: 1;
+}
+.slick-next {
+	right: 3% !important;
+	z-index: 1;
+}
+
+.slick-prev:before,.slick-next:before{
+	font-size: 45px;
+	color:#fff !important;
+}
+
+.slick-initialized .swipe-tab.active-tab {
+	border-bottom-color: #000;
+	color: #000;
+	font-weight: bold;
+}
+
+.movie_contentsBox {
+	padding: 25px;
+	background: #00081d;
+}
+
+.swipe-tabs-container{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 40%;
+	overflow: hidden;
+}
+
+.movie_main_image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.movie_detail{
+	position: absolute;
+	top: 180px;
+	left: 180px;
+}
+
+.movie_main_banner{
+	width:170px;
+}
+
+
+.plot{
+	padding-top:30px;
+	width:400px;
+	color:#fff;
+}
+
+
+.pop_image{
+	width: 270px;
+	height: 140px;
+    background-size: cover;
+}
+
+
+/*btn_style*/
+.btn-default {
+    color: #333;
+    background-color: #fff !important;
+}
+.btn-default:focus {
+    color: #fff;
+    background-color: #fff;
+}
+.playBtn:hover {
+    color: #333 !important;
+    background-color: #d4d4d4 !important;
+}
+.playBtn:active {
+    color: #333 !important;
+    background-color: #d4d4d4 !important;
+}
+
+
+.informBtn{
+	color : #fff !important;
+	background-color: #4f4e4d !important;
+}
+
+.informBtn:hover {
+    color: #333;
+    background-color: #8C8C8C !important;
+}
+.informBtn:active {
+    color: #333;
+    background-color: #8C8C8C !important;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 767px) {
+	.movie_detail, .movie_main_banner {
+		position: absolute;
+		top: 1vh;
+		left: 2vw;
+		max-width: 40px;
+	}
+	
+	.pop_image{
+		width: 100px;
+		height: 50px;
+		background-size: cover;
+	}
+	
+	.slick-initialized .swipe-tab {
+		height: 50px;
+	}
+	
+	.story{
+		display:none;
+	}
+}
+
+
+
+/*modal css*/
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	display: none;
+
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.show {
+	display: block;
+}
+
+.modal_body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 800px;
+	height: 600px;
+
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+	transform: translateX(-50%) translateY(-50%);
+}
+.m_head{
+	height: 10%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color:#e7e5e5;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.m_body{
+	height: 80%;
+	padding: 20px;
+}
+.m_footer{
+	height: 10%;
+	padding: 15px;
+	background-color:#e7e5e5;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	justify-content: end;
+}
+.modal_title{
+	font-size: 18px;
+	color: gray;
+	font-weight: 500;
+}
+.close_btn{
+	font-size: 20px;
+	color: rgb(139, 139, 139);
+	font-weight: 900;
+	cursor: pointer;
+}
+.modal_label{
+	padding-top: 10px;
+}
+.input_box{
+	width: 100%;
+	border: 1px solid rgb(189, 189, 189);
+	height: 30px;
+}
+.modal_btn{
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bolder;
+	padding-top: 5px;
+	margin-left: 5px;
+	font-family: sans-serif;
+}
+.cancle{
+	background-color: white;
+	color: black;
+}
+.save{
+	background-color: rgb(50, 77, 158);
+	color: white;
+}
+
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+
+/* close button */
+.close {
+	color: #aaa;
+	position:absolute;
+	top:8px;
+	right:10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 98%;
+	height: 98%;
+}
+
+
+.modal_title{
+	font-size:2em;
+	font-weight:600;
+}
+
+.modal_img{
+	width:300px;
+	height:500px;
+	border-radius:20px;
+	margin-right:20px;
+}
+
+.modal_movie_title{
+	font-size:25px;
+	font-weight:900;
+	font-color:#353535;
+	padding-bottom:5px;
+}
+
+.modal_story, .modal_movieDetail{
+	font-size:20px;
+	font-color:#d4d4d4;
+}
+
+.modal_movieDetail{
+	margin-top:40px;
+}
+</style>
+
+
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
+	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
+		<div class="login_wrap" style="float:right; padding-top:1%;">
+			<a href="Login.html"><button type="button" class="btn btn-danger" style="font-size:14px;">로그인</button></a>
+			<a href="SignUp.html"><button type="button" class="btn btn-danger" style="font-size:14px;">회원가입</button></a>
+		</div>
+		<div id="header">
+			<h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a></h1>
+		</div>
+	</div>
+
+	<!--contents_box(로그인 후 popular movie 정보)-->
+	<div class="movie_contentsBox">
+		<div class="swipe-tabs-container">
+			<!--s:movie contents1-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents1.jpg">
+				<div class="movie_detail">
+					<div class="plot">
+						<img class="movie_main_banner" src="../IMG/popular_movie/contents_title1.png">
+						<span class="story">아들과 샌프란시스코에 간 엽문. 그곳에서는 자신의 제자이자 유명인이 된 이소룡과 무술 고수들이 서로 대립하고 있는데. 엽문은 이들을 화해시킬 수 있을까?</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents1-->
+			
+			
+			
+			<!--s:movie contents2-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents2.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title2.png">
+					<div class="plot">
+						<span class="story">"'루니'의 새 집사를 찾아라!" 동생 같은 반려견 '루니'를 위해 정시 퇴근에 진심인 '민수'. 결혼을 앞둔 그에게 닥친 집사 인생 조기 로그아웃 위기! 뜻밖의 '견'명적인 만남! 함께 하면 개신나고! 개따뜻한! 개귀엽 버라이어티 무비!</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents2-->
+			
+			<!--s:movie contents3-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents3.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title3.png">
+					<div class="plot">
+						<span class="story">출입을 금할지라도 그곳의 이야기마저 가두지 말자이 세상 모든 [관계자 외 출입금지] 구역에선 어떤 일들이 벌어지고 있을까?</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents3-->
+			
+			<!--s:movie contents4-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents4.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title4.png">
+					<div class="plot">
+						<span class="story">'4세대 라이브 원톱'으로 평가받는 그룹 클라씨를 배출한 방과후 설렘의 두 번째 시즌으로 실력파 케이팝 보이그룹 탄생을 위한 글로벌 프로젝트</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents4-->
+			
+			<!--s:movie contents5-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents5.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title5.png">
+					<div class="plot">
+						<span class="story">어디로 튈지 모르는 촌철살인의 입담으로 게스트들을 무장해제 시켜 진짜 이야기를 끄집어내는 독보적 토크쇼</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents5-->
+			
+			<!--s:movie contents6-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents6.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title6.png">
+					<div class="plot">
+						<span class="story">'4세대 라이브 원톱'으로 평가받는 그룹 클라씨를 배출한 방과후 설렘의 두 번째 시즌으로 실력파 케이팝 보이그룹 탄생을 위한 글로벌 프로젝트</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents6-->
+			
+			<!--s:movie contents7-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents7.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title7.png">
+					<div class="plot">
+						<span class="story">우주여행을 하던 '핑크퐁'과 아기상어 '올리', 갑자기 날아온 운석에 부딪혀 우주선의 별이 조각나버렸어요. 우리 함께 잃어버린 별 조각을 찾기 위해 5개의 행성으로 신나는 우주 모험을 떠나요!</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents8-->
+			
+			<!--s:movie contents8-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents8.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title8.png">
+					<div class="plot">
+						<span class="story">해리 포터는 위압적인 버논 숙부와 냉담한 이모 페투니아, 욕심 많고 버릇없는 사촌 더즐리 밑에서 갖은 구박을 견디며 계단 밑 벽장에서 생활한다. 이모네 식구들 역시 해리와의 동거가 불편하기는 마찬가지.</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents8-->
+			
+			<!--s:movie contents9-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents9.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title9.png">
+					<div class="plot">
+						<span class="story">결혼을 간절히 원하는 솔로 남녀들이 모여 사랑을 찾기 위해 고군분투하는 극사실주의 데이팅 프로그램</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents9-->
+			
+			<!--s:movie contents10-->
+			<div class="swipe-tab-content">
+				<img class="movie_main_image" src="../IMG/popular_movie/contents10.jpg">
+				<div class="movie_detail">
+					<img class="movie_main_banner" src="../IMG/popular_movie/contents_title10.png">
+					<div class="plot">
+						<span class="story">타고난 스토리텔러 설민석이 펼치는 상상 그 이상의 <신들의 사생활> 고전 필독서와 예능의 핫한 만남, Again 그리스 로마 신화 시즌 2</span>
+						
+						<br><br>
+						<button type="button" class="btn btn-default btn-lg playBtn modal_popBtn">
+							<span class="glyphicon glyphicon-play-circle"></span> ▶︎ 재생
+						</button>
+					</div>
+				</div>
+			</div>
+			<!--e:movie contents10-->
+
+		</div>
+	</div>
+	<div class="popular_movie">
+		<div class="swipe-tabs">
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner1.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner2.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner3.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner4.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner5.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner6.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner7.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner8.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner9.jpg"></div>
+			<div class="swipe-tab"><img class="pop_image" src="../IMG/popular_movie/popular_banner10.jpg"></div>
+		</div>
+	</div>
+
+
+
+	<!-- s:모달(첫번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/D9b4XqMzxH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img1.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					엽문4 :더 파이널
+				</div>
+				
+				<div class="modal_story">
+					이제 마지막을 함께 할 시간, 아낌없이 불태운다! 영춘권 최고수 '엽문'은 아들의 미래를 위해 미국으로 향한다. 그곳에는 자기 제자 이소룡이 점점 유명세를 이어가며 세상의 눈길을 사로잡고 있다. 엽문은 그곳에서 이해할 수 없는 이유로 자신의 앞을 막아서는 중화회관의 사부들과 대립하게 된다. 특히 태극권의 고수 만종화와는 대결까지 벌이게 된다. 한편 이들을 못마땅히 여기는 이민국과 해병대가 자행하는 불의를 목격한 엽문은 진정한 무예의 정신을 품고 맞서게 되는데...
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   홍콩, 2020년</div>
+					<div style="margin-top:5px;">장르   드라마, 액션</div>
+					<div style="margin-top:5px;">출연   견자단, 스콧 앳킨스, 진국곤, 오건호, 오월</div>
+					<div style="margin-top:5px;">감독   엽위신</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>
+		</div>
+	</div>
+	<!-- e:모달(첫번째) -->
+	
+	<!-- s:모달(두번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kHzgRPver_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img2.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					멍뭉이
+				</div>
+				
+				<div class="modal_story">
+					"'루니'의 새 집사를 찾아라!" 동생 같은 반려견 '루니'를 위해 정시 퇴근에 진심인 '민수'. 결혼을 앞둔 그에게 닥친 집사 인생 조기 로그아웃 위기! 야심 차게 오픈한 카페는 말아먹고 인생 자체가 위기인 사촌 형 '진국', 민수의 다급한 SOS에 고심하다 새 집사 면접을 제안하게 되고. 완벽한 집사를 찾기 위해 제주도로 향하는 두 형제의 여정에 느닷없는 멍뭉이들의 등장이 이어지는데! 뜻밖의 '견'명적인 만남! 함께 하면 개신나고! 개따뜻한! 개귀엽 버라이어티 무비!
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   대한민국, 2023년</div>
+					<div style="margin-top:5px;">장르   드라마</div>
+					<div style="margin-top:5px;">출연   차태현, 유연석, 이승희, 정지훈</div>
+					<div style="margin-top:5px;">감독   김주환</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(두번째) -->
+
+	<!-- s:모달(세번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/2ho_ShJKoZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img3.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					관계자 외 출입금지
+				</div>
+				
+				<div class="modal_story">
+					 출입을 금할지라도 그곳의 이야기마저 가두지 말자이 세상 모든 [관계자 외 출입금지] 구역에선 어떤 일들이 벌어지고 있을까?
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   SBS, 대한민국, 2023~2023</div>
+					<div style="margin-top:5px;">장르   교양, 라이프</div>
+					<div style="margin-top:5px;">출연   김종국, 양세형, 이이경, 미미</div>
+					<div style="margin-top:5px;">감독   이동원 고혜린 왕성우 김경묵 정회동 박소희 김소진 감유민 이서윤</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(세번째) -->
+	
+	<!-- s:모달(네번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/mIXs26KhNBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img4.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					소년판타지 - 방과후 설렘 시즌2
+				</div>
+				
+				<div class="modal_story">
+					'4세대 라이브 원톱'으로 평가받는 그룹 클라씨를 배출한 방과후 설렘의 두 번째 시즌으로 실력파 케이팝 보이그룹 탄생을 위한 글로벌 프로젝트
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   MBC, 대한민국, 2023~</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(네번째) -->
+	
+	<!-- s:모달(다섯번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/OvyNjQ63GtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img5.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					라디오스타
+				</div>
+				
+				<div class="modal_story">
+					 어디로 튈지 모르는 촌철살인의 입담으로 게스트들을 무장해제 시켜 진짜 이야기를 끄집어내는 독보적 토크쇼
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   MBC, 대한민국, 2007~</div>
+					<div style="margin-top:5px;">장르   토크</div>
+					<div style="margin-top:5px;">출연   김국진, 김구라, 안영미, 유세윤</div>
+					<div style="margin-top:5px;">감독   이윤화, 김명엽</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(다섯번째) -->
+	
+	<!-- s:모달(여섯번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Q75XPST9E_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img6.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					꼬리에 꼬리를 무는 그날 이야기
+				</div>
+				
+				<div class="modal_story">
+					주관적으로 해석하는 ‘나’의 이야기어느 날, 그 사건, 그 장면이 내 마음을 흔들었다!눈길을 사로잡는 그 날, 그 사건으로부터 한 사람의 소시민으로서 ‘내’가 느낀 바를, 온전히 ‘나’의 시점에서 주관적으로 전달한다.
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   SBS, 대한민국, 2021~</div>
+					<div style="margin-top:5px;">장르   교양, 토크</div>
+					<div style="margin-top:5px;">출연   장도연, 장현성, 장성규</div>
+					<div style="margin-top:5px;">감독   황성준, 백시원</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(여섯번째) -->
+	
+	<!-- s:모달(일곱번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kLG_mbZYAlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img7.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					핑크퐁 시네마 콘서트: 우주대탐험
+				</div>
+				
+				<div class="modal_story">
+					우주여행을 하던 '핑크퐁'과 아기상어 '올리', 갑자기 날아온 운석에 부딪혀 우주선의 별이 조각나버렸어요. 우리 함께 잃어버린 별 조각을 찾기 위해 5개의 행성으로 신나는 우주 모험을 떠나요!
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   대한민국, 2020년</div>
+					<div style="margin-top:5px;">장르   애니메이션, 모험</div>
+					<div style="margin-top:5px;">출연   조경이, 김서영, 정재헌, 김은아, 김민석</div>
+					<div style="margin-top:5px;">감독   변희선</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(일곱번째) -->
+
+	<!-- s:모달(여덟번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kiIoydThaWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img8.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					(자막) 해리포터와 마법사의 돌
+				</div>
+				
+				<div class="modal_story">
+					해리 포터는 위압적인 버논 숙부와 냉담한 이모 페투니아, 욕심 많고 버릇없는 사촌 더즐리 밑에서 갖은 구박을 견디며 계단 밑 벽장에서 생활한다. 이모네 식구들 역시 해리와의 동거가 불편하기는 마찬가지. 
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   미국, 2001년</div>
+					<div style="margin-top:5px;">장르    가족, 모험, 판타지</div>
+					<div style="margin-top:5px;">출연    다니엘 래드클리프, 엠마 왓슨, 루퍼트 그린트</div>
+					<div style="margin-top:5px;">감독   	크리스 콜럼버스</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(여덟번째) -->
+	
+	<!-- s:모달(아홉번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/rdtVN9Pc-eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img9.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					나는 SOLO
+				</div>
+				
+				<div class="modal_story">
+					결혼을 간절히 원하는 솔로 남녀들이 모여 사랑을 찾기 위해 고군분투하는 극사실주의 데이팅 프로그램 
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   SBS PLUS, 대한민국, 2021~</div>
+					<div style="margin-top:5px;">장르    연애</div>
+					<div style="margin-top:5px;">작가    조은희, 주연수, 안가람, 김수진</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">♡</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(아홉번째) -->
+	
+	<!-- s:모달(열번째) -->
+	<div class="modal" style="display:none;">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/X7GvXrI_XUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			
+			<div class="modal_title">상세정보</div>
+			<div>
+				<div style="float:left">
+					<img class="modal_img" src="../IMG/popular_movie/modal_img10.jpg">
+				</div>
+				
+				<div class="modal_movie_title">
+					신들의 사생활-그리스 로마 신화2
+				</div>
+				
+				<div class="modal_story">
+					신들의 사생활-그리스 로마 신화2
+				</div>
+				
+				<div class="modal_movieDetail">
+					<div>개요   MBN, 대한민국, 2023~</div>
+					<div style="margin-top:5px;">장르    토크</div>
+					<div style="margin-top:5px;">감독    책임 프로듀서 : 권오용 프로듀서 : 송성찬</div>
+				</div>
+				
+				<span class="toggle_icon" style="font-size:3em; cursor:pointer; color:#DB0000;">
+					♡
+				</span>
+			</div>	
+		</div>
+	</div>
+	<!-- e:모달(열번째) -->
+	
+	
+	
+	<div style="padding-top:80px; font-size:2em; color:#fff; font-weight:700;">실시간 인기 콘텐츠</div>
+	<div style="text-align:center;">
+		<img src="../IMG/movie_list/list1.jpg" style="float:left; width:20%;">
+		<img src="../IMG/movie_list/list2.jpg" style="float:left; width:20%;">
+		<img src="../IMG/movie_list/list3.jpg" style="float:left; width:20%;">
+		<img src="../IMG/movie_list/list4.jpg" style="float:left; width:20%;">
+		<img src="../IMG/movie_list/list5.jpg" style="float:left; width:20%;">
+		<div style="clear:both;"></div>
+	</div>
+
+	<script>
+	//modal code// Modal을 가져옵니다.
+	var modals = document.getElementsByClassName("modal");
+	// Modal을 띄우는 클래스 이름을 가져옵니다.
+	var btns = document.getElementsByClassName("modal_popBtn");
+	// Modal을 닫는 close 클래스를 가져옵니다.
+	var spanes = document.getElementsByClassName("close");
+	var funcs = [];
+	
+	// Modal을 띄우고 닫는 클릭 이벤트를 정의한 함수
+	function Modal(num){
+		return function() {
+			// 해당 클래스의 내용을 클릭하면 Modal을 띄웁니다.
+			btns[num].onclick = function() {
+				modals[num].style.display = "block";
+				$('.swipe-tabs-container').slick('slickPause'); //slick 정지
+				$('.swipe-tabs').slick('slickPause'); //subslick 정지
+				console.log(num);
+			};
+
+			// <span> 태그(X 버튼)를 클릭하면 Modal이 닫습니다.
+			spanes[num].onclick = function() {
+				modals[num].style.display = "none";
+			};
+		};
+	}
+	
+	
+	
+	// Modal 영역 밖을 클릭하면 Modal을 닫습니다.
+	window.onclick = function(event) {
+		if (event.target.className == "modal") {
+			event.target.style.display = "none";
+		}
+	};
+	
+	
+	/*slick code*/
+	$(function () {
+		'use strict';
+
+		var $swipeTabsContainer = $('.swipe-tabs'),
+			$swipeTabs = $('.swipe-tab'),
+			$swipeTabsContentContainer = $('.swipe-tabs-container'),
+			currentIndex = 0,
+			activeTabClassName = 'active-tab';
+
+		$swipeTabsContainer.on('init', function(event, slick) {
+			$swipeTabsContentContainer.removeClass('invisible');
+			$swipeTabsContainer.removeClass('invisible');
+			
+
+			currentIndex = slick.getCurrent();
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+		});
+
+		$swipeTabsContainer.slick({
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			arrows: false,
+			infinite: false,
+			speed: 500,
+			autoplay : true,
+			autoplaySpeed : 1800,
+			swipeToSlide: true,
+			draggable: true,
+			touchThreshold : 100,
+			focusOnSelect : true,
+			focusOnChange : true
+		});
+
+		$swipeTabsContentContainer.slick({
+			asNavFor: $swipeTabsContainer,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: true,
+			infinite: false,
+			speed: 500,
+			autoplay : true,
+			autoplaySpeed : 1300,
+			swipeToSlide: true,
+			draggable: true,
+			touchThreshold : 100,
+			focusOnSelect : true,
+			focusOnChange : true
+		});
+
+
+		$swipeTabs.on('click', function(event) {
+			// gets index of clicked tab
+			currentIndex = $(this).data('slick-index');
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex +']').addClass(activeTabClassName);
+			$swipeTabsContainer.slick('slickGoTo', currentIndex);
+			$swipeTabsContentContainer.slick('slickGoTo', currentIndex);
+		});
+
+		//initializes slick navigation tabs swipe handler
+		$swipeTabsContentContainer.on('swipe', function(event, slick, direction) {
+			currentIndex = $(this).slick('slickCurrentSlide');
+			$swipeTabs.removeClass(activeTabClassName);
+			$('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
+		});
+	});
+	
+
+	// 원하는 Modal 수만큼 Modal 함수를 호출해서 funcs 함수에 정의합니다.
+	for(var i = 0; i < btns.length; i++) {
+		funcs[i] = Modal(i);
+	}
+	 
+	// 원하는 Modal 수만큼 funcs 함수를 호출합니다.
+	for(var j = 0; j < btns.length; j++) {
+		funcs[j]();
+	}
+	
+	
+	
+	//toggle
+	$(".toggle_icon").click(function(){
+		if($(this).text() == "♡"){
+		   $(this).text("♥");
+		}else{
+		   $(this).text("♡");
+		}
+	});
+	</script>
+</html>
