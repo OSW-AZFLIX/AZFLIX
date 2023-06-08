@@ -8,23 +8,43 @@
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
-	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
-		<div class="login_wrap" style="float:right; padding-top:1%;">
-			<a href="Login.html"><button type="button" class="btn btn-danger" style="font-size:14px;">로그인</button></a>
-			<a href="SignUp.html"><button type="button" class="btn btn-danger" style="font-size:14px;">회원가입</button></a>
-		</div>
+	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;" class="container-fluid">
 		<div id="header">
-			<h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a></h1>
+			<div class="top_logo">
+				<a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="float:left; width:170px; height:70px;"/></a>
+				
+				<div style="white-space:nowrap; float:right;">
+					<span class="header_nav">
+					<a href="/">홈</a>
+					</span>
+					
+					<span class="header_nav">
+					<a href="./team_member.html">팀원소개</a>
+					</span>
+					
+					<span class="header_nav">
+					검색
+					</span>
+					
+					<span class="header_nav">
+					통계
+					</span>
+					
+					<span class="login_wrap">
+						<a href="HTML/Login.html">
+							<button type="button" class="btn btn-danger" style="font-size:14px;">Login</button>
+						</a>
+						<a href="HTML/SignUp.html">
+							<button type="button" class="btn btn-danger" style="font-size:14px;">Sign Up</button>
+						</a>
+					</span>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<!--team member 소개-->
 	<div id="team_memberBox" style="margin-top:1%;">
-		<div style="padding-left:5%;">
-			<h1 style="font-size:3.5em; color:#fff; font-weight:600;">
-				AZFLIX Team member
-			</h1>
-		</div>
 		<div class="container mx-auto flex px-5 md:px-40 py-24 md:flex-row flex-col items-center items-stretch inline-block" style="padding-top:4%; min-width:75%;">
 			<div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" style="padding-top:90px;">
 				<h1 class="title-font sm:mb-4 tracking-tighter" style="font-size:2em; color:#fff; font-weight:600;">

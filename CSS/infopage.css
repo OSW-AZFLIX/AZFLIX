@@ -6,6 +6,10 @@
 
 .title-font{text-align:left; word-break:keep-all;}
 
+.movie_poster{border-radius:10px;}
+#poster_box{text-align:center; white-space:nowrap; max-width:200px;}
+.poster {display:inline-block;zoom:1;.display:inline;}
+
 /*faq_style*/
 .faq-title {
 	font-size: 30px;
@@ -52,6 +56,8 @@ button.question:focus{
 	float:right;
 }
 
+
 @media screen and (max-width: 768px) {
 	.header_nav{color:#fff; padding-right:20px; line-height:70px; font-weight:600;}
+	.login_wrap{position:absolute; top:10px; right:5px;}
 }

@@ -351,13 +351,15 @@
 
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
-	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
+	<div id="header_wrap" class="container-fluid" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
 		<div class="login_wrap" style="float:right; padding-top:1%;">
 			<a href="Login.html"><button type="button" class="btn btn-danger" style="font-size:14px;">로그인</button></a>
 			<a href="SignUp.html"><button type="button" class="btn btn-danger" style="font-size:14px;">회원가입</button></a>
 		</div>
 		<div id="header">
-			<h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a></h1>
+			<h1 class="top_logo">
+				<a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a>
+			</h1>
 		</div>
 	</div>
 
@@ -914,15 +916,16 @@
 	
 	
 	
-	<div style="padding-top:80px; font-size:2em; color:#fff; font-weight:700;">실시간 인기 콘텐츠</div>
-	<div style="text-align:center;">
-		<img src="../IMG/movie_list/list1.jpg" style="float:left; width:20%;">
-		<img src="../IMG/movie_list/list2.jpg" style="float:left; width:20%;">
-		<img src="../IMG/movie_list/list3.jpg" style="float:left; width:20%;">
-		<img src="../IMG/movie_list/list4.jpg" style="float:left; width:20%;">
-		<img src="../IMG/movie_list/list5.jpg" style="float:left; width:20%;">
-		<div style="clear:both;"></div>
+	
+	<div id="poster_box">
+		<div style="padding-top:80px; font-size:2em; color:#fff; font-weight:700;">믿고 보는 AZFLIX 에디터 추천작</div>
+		<div class="poster"><img src="../IMG/movie_list/list1.jpg" class="movie_poster"></div>
+		<div class="poster"><img src="../IMG/movie_list/list2.jpg" class="movie_poster"></div>
+		<div class="poster"><img src="../IMG/movie_list/list3.jpg" class="movie_poster"></div>
+		<div class="poster"><img src="../IMG/movie_list/list4.jpg" class="movie_poster"></div>
+		<div class="poster"><img src="../IMG/movie_list/list5.jpg" class="movie_poster"></div>
 	</div>
+
 
 	<script>
 	//modal code// Modal을 가져옵니다.
