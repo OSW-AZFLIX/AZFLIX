@@ -1,7 +1,7 @@
 /* main_title */
 #main_box{background-image: linear-gradient( rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.5) ), url(../IMG/main_bg.jpg); width:90%; height:750px; margin:0 auto; background-size: cover; border-radius:1.5%;}
 #sub_box{background-image: linear-gradient(to bottom right, #00081d, #380822); width:90%; margin:0 auto; background-size: cover; border-radius:1.5%;}
-#header{white-space:nowrap;}
+#header{white-space:nowrap; width:95%; margin:0 auto;}
 .header_nav{color:#fff; padding-right:50px; line-height:70px; font-weight:600;}
 
 .title-font{text-align:left; word-break:keep-all;}
@@ -58,6 +58,7 @@ button.question:focus{
 
 
 @media screen and (max-width: 768px) {
+	#nav_menu{display:inline-block;padding-top:20px;}
 	.header_nav{color:#fff; padding-right:20px; line-height:70px; font-weight:600;}
 	.login_wrap{position:absolute; top:10px; right:5px;}
 }
