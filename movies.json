@@ -17,28 +17,148 @@ Movie = {
             "genre": "hero"
         },
         {
-            "title": "Avengers: Age of Ultron",
+            "title": "Avengers_Age of Ultron",
             "genre": "hero"
         },
         {
-            "title": "Avengers: Infinity War",
+            "title": "Avengers_Infinity War",
             "genre": "hero"
         },
         {
-            "title": "Avengers: Endgame",
+            "title": "Avengers_Endgame",
             "genre": "hero"
         },
         {
-            "title": "스즈메의 문단속",
+            "title": "Suzume",
             "genre": "animation"
         },
         {
-            "title": "센과 치히로의 행방불명",
+            "title": "Spirited Away",
             "genre": "animation"
         },
         {
             "title": "Fast X",
             "genre": "action"
+        },
+        {
+            "title": "Avatar",
+            "genre": "SF"
+        },
+        {
+            "title": "Avatar2",
+            "genre": "SF"
+        },
+        {
+            "title": "Interstellar",
+            "genre": "SF"
+        },
+        {
+            "title": "The Outlaws",
+            "genre": "action"
+        },
+        {
+            "title": "Extreme Job",
+            "genre": "comedy"
+        },
+        {
+            "title": "Veteran",
+            "genre": "action"
+        },
+        {
+            "title": "Ip Man 4_The Finale",
+            "genre": "action"
+        },
+        {
+            "title": "My Puppy",
+            "genre": "comedy"
+        },
+        {
+            "title": "STAFF ONLY",
+            "genre": "culture"
+        },
+        {
+            "title": "Fantasy Boys_My Teenage Boys",
+            "genre": "audition"
+        },
+        {
+            "title": "Radio Star",
+            "genre": "entertainment"
+        },
+        {
+            "title": "Kkokkomu",
+            "genre": "current affairs"
+        },
+        {
+            "title": "Pinkfong",
+            "genre": "animation"
+        },
+        {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "genre": "fantasy"
+        },
+        {
+            "title": "I'm SOLO",
+            "genre": "reality"
+        },
+        {
+            "title": "Greek Myth",
+            "genre": "history"
+        },
+        {
+            "title": "The Roundup",
+            "genre": "action"
+        },
+        {
+            "title": "The Roundup_No Way Out",
+            "genre": "action"
+        },
+        {
+            "title": "Train to Busan",
+            "genre": "horror"
+        },
+        {
+            "title": "Peninsula",
+            "genre": "horror"
+        },
+        {
+            "title": "Annabelle",
+            "genre": "horror"
+        },
+        {
+            "title": "Old People",
+            "genre": "horror"
+        },
+        {
+            "title": "The Wailing",
+            "genre": "horror"
+        },
+        {
+            "title": "GONJIAM",
+            "genre": "horror"
+        },
+        {
+            "title": "Happy Death Day",
+            "genre": "horror"
+        },
+        {
+            "title": "One Missed Call",
+            "genre": "horror"
+        },
+        {
+            "title": "August Rush",
+            "genre": "romance"
+        },
+        {
+            "title": "About Time",
+            "genre": "romance"
+        },
+        {
+            "title": "Dont Look Up",
+            "genre": "comedy"
+        },
+        {
+            "title": "Cruella",
+            "genre": "comedy"
         }
     ]
 }
