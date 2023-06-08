@@ -1,0 +1,844 @@
+DATA = {
+    "monthly_data": [
+        {
+            "month": "January",
+            "payment": 10,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "February",
+            "payment": 8,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "March",
+            "payment": 19,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "April",
+            "payment": 20,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "May",
+            "payment": 15,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "June",
+            "payment": 21,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "July",
+            "payment": 25,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "August",
+            "payment": 30,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "September",
+            "payment": 12,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "October",
+            "payment": 17,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "November",
+            "payment": 5,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        },
+        {
+            "month": "December",
+            "payment": 6,
+            "genre": [
+                {
+                    "name": "music",
+                    "rate": 5
+                },
+                {
+                    "name": "drama",
+                    "rate": 12
+                },
+                {
+                    "name": "hero",
+                    "rate": 7
+                },
+                {
+                    "name": "animation",
+                    "rate": 5
+                },
+                {
+                    "name": "action",
+                    "rate": 5
+                },
+                {
+                    "name": "SF",
+                    "rate": 7
+                },
+                {
+                    "name": "comedy",
+                    "rate": 9
+                },
+                {
+                    "name": "culture",
+                    "rate": 3
+                },
+                {
+                    "name": "audition",
+                    "rate": 5
+                },
+                {
+                    "name": "entertainment",
+                    "rate": 8
+                },
+                {
+                    "name": "current affairs",
+                    "rate": 5
+                },
+                {
+                    "name": "fantasy",
+                    "rate": 7
+                },
+                {
+                    "name": "reality",
+                    "rate": 5
+                },
+                {
+                    "name": "history",
+                    "rate": 7
+                },
+                {
+                    "name": "horror",
+                    "rate": 5
+                },
+                {
+                    "name": "romance",
+                    "rate": 5
+                }
+            ]
+        }
+    ]
+}
