@@ -1,8 +1,24 @@
-member = {
+Member = {
     "members": [
         {
             "ID": "admin",
             "PW": "admin"
+        },
+        {
+            "ID": "cho@gmail.com",
+            "PW": "minkyu"
+        },
+        {
+            "ID": "Kang@gmail.com",
+            "PW": "taekwang"
+        },
+        {
+            "ID": "bae@gmail.com",
+            "PW": "giwon"
+        },
+        {
+            "ID": "nasridinov@gmail.com",
+            "PW": "aziz"
         }
     ]
 }
