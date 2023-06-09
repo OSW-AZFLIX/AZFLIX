@@ -6,10 +6,11 @@
 
 .title-font{text-align:left; word-break:keep-all;}
 
-.poster_title{width:1300px; margin:0 auto; padding-top:5%; font-size:1.8em; color:#fff; font-weight:600;}
+.poster_title{width:1300px; margin:0 auto; padding-top:3%; font-size:1.8em; color:#fff; font-weight:600;}
 
 .poster_wrap {
 	text-align: center;
+	padding-bottom:5%;
 }
 
 .poster_wrap ul {
@@ -80,6 +81,7 @@ button.question:focus{
 	#nav_menu{display:inline-block;padding-top:20px;}
 	.header_nav{color:#fff; padding-right:20px; line-height:70px; font-weight:600;}
 	.login_wrap{position:absolute; top:10px; right:5px;}
+	.poster_wrap ul {margin-top:-30px;}
 }
 
 @media screen and (max-width: 1368px) {
