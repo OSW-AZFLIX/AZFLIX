@@ -1,71 +1,95 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/infopage.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/infopage.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/team_member.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
-	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;">
-		<div class="login_wrap" style="float:right; padding-top:1%;">
-			<a href="Login.html"><button type="button" class="btn btn-danger" style="font-size:14px;">로그인</button></a>
-			<a href="SignUp.html"><button type="button" class="btn btn-danger" style="font-size:14px;">회원가입</button></a>
-		</div>
+	<div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;" class="container-fluid">
 		<div id="header">
-			<h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" alt="azflix_logo" style="width:170px; height:70px;"/></a></h1>
+			<div class="top_logo">
+				<a href="/"><img src="https://osw-azflix.github.io/IMG/logo.png" alt="azflix_logo" style="float:left; width:170px; height:70px;"/></a>
+				
+				<div style="white-space:nowrap; float:right;">
+					<span id="nav_menu">
+						<span class="header_nav">
+							<a href="/">HOME</a>
+						</span>
+						
+						<span class="header_nav">
+							<a href="./team_member.html">TEAM MEMBER</a>
+						</span>
+						
+						<span class="header_nav">
+							<a href="./search.html">SEARCH</a>
+						</span>
+						
+						<span class="header_nav">
+							<a href="./statistics.html">STATISTICS</a>
+						</span>
+					</span>
+					<span class="login_wrap">
+						<a href="./Login.html">
+							<button type="button" class="btn btn-danger" style="font-size:14px;">Login</button>
+						</a>
+						<a href="./SignUp.html">
+							<button type="button" class="btn btn-danger" style="font-size:14px;">Sign Up</button>
+						</a>
+					</span>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<!--team member 소개-->
-	<div id="team_memberBox" style="margin-top:1%;">
-		<div style="padding-left:5%;">
-			<h1 style="font-size:3.5em; color:#fff; font-weight:600;">
-				AZFLIX Team member
-			</h1>
-		</div>
-		<div class="container mx-auto flex px-5 md:px-40 py-24 md:flex-row flex-col items-center items-stretch inline-block" style="padding-top:4%; min-width:75%;">
-			<div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" style="padding-top:90px;">
-				<h1 class="title-font sm:mb-4 tracking-tighter" style="font-size:2em; color:#fff; font-weight:600;">
+	<div id="team_memberBox" class="container-fluid text-center" style="margin-top:1%;">		
+		<div class="container" style="padding-top:4%; min-width:75%;">
+			<div id="image_frame1" style="padding-top:50px; border-bottom:10px solid #E8D9FF;">
+				<h1 style="font-size:2em; color:#fff; font-weight:600;">
 				Team Leader & UX/UI designer
 				</h1>
-				<div class="title-font sm:mb-4 tracking-tighter" style="word-break:keep-all; font-size:1.2em; line-height:35px; font-weight:500; color:#fff; text-align:left;">
-				Cho Min Gyu - 검색화면(태그별, 제목별)
+				
+				<img class="img-responsive" src="../IMG/member_icon/icon1.png" width="250px;">
+				<div class="member_name">Cho Min Gyu</div>
+			
+				<div class="image_hover_css" id="image_hover1">
+					<div>Part : Search Engine Developer(JSON, #tag, #title)</div>
 				</div>
 			</div>
-
-			<a href="" target="_blank">
-				<img class="object-cover object-center rounded" alt="tip_book" src="../IMG/member_icon/icon1.png" style="width:200px;">
-			</a>
 		</div>
 		
-		<div class="container mx-auto flex px-5 md:px-40 py-24 md:flex-row flex-col items-center items-stretch inline-block" style="padding-top:4%; min-width:75%; border-top:8px solid #E8D9FF;">
-			<div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" style="padding-top:90px;">
-				<h1 class="title-font sm:mb-4 tracking-tighter" style="font-size:2em; color:#fff; font-weight:600;">
+		<div class="container" style="padding-top:4%; min-width:75%;">
+			<div id="image_frame2" style="padding-top:50px; border-bottom:10px solid #E8D9FF;">
+				<h1 style="font-size:2em; color:#fff; font-weight:600;">
 				UX/UI designer
 				</h1>
-				<div class="title-font sm:mb-4 tracking-tighter" style="word-break:keep-all; font-size:1.2em; line-height:35px; font-weight:500; color:#fff; text-align:left;">
-				Bae Gi Won - 로그인, 회원가입 화면
+				
+				<img class="img-responsive" src="../IMG/member_icon/icon2.png" width="250px;">
+				<div class="member_name">Bae Gi Won</div>
+			
+				<div class="image_hover_css" id="image_hover2">
+					<div>Part : Create Account and Sign-in Engine Developer(LOGIN)</div>
 				</div>
 			</div>
-			<a href="" target="_blank">
-				<img class="object-cover object-center rounded" alt="tip_book" src="../IMG/member_icon/icon2.png" style="width:200px;">
-			</a>
 		</div>
-
-		<div class="container mx-auto flex px-5 md:px-40 py-24 md:flex-row flex-col items-center items-stretch inline-block" style="padding-top:4%; min-width:75%; border-top:8px solid #E8D9FF; border-bottom:8px solid #E8D9FF;">
-			<div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" style="padding-top:90px;">
-				<h1 class="title-font sm:mb-4 tracking-tighter" style="font-size:2em; color:#fff; font-weight:600;">
+		
+		<div class="container" style="padding-top:4%; min-width:75%;">
+			<div id="image_frame3" style="padding-top:50px; border-bottom:10px solid #E8D9FF;">
+				<h1 style="font-size:2em; color:#fff; font-weight:600;">
 				UX/UI designer & Product Manager
 				</h1>
-				<div class="title-font sm:mb-4 tracking-tighter" style="word-break:keep-all; font-size:1.2em; line-height:35px; font-weight:500; color:#fff; text-align:left;">
-				Kang Tae Kwang – 메인화면
+				
+				<img class="img-responsive" src="../IMG/member_icon/icon3.png" width="250px;">
+				<div class="member_name">Kang Tae Kwang</div>
+			
+				<div class="image_hover_css" id="image_hover3">
+					<div>Part : Main and Movie Info Developer</div>
 				</div>
 			</div>
-			<a href="" target="_blank">
-				<img class="object-cover object-center rounded" alt="tip_book" src="../IMG/member_icon/icon3.png" style="width:200px;">
-			</a>
 		</div>
 	</div>
 
@@ -88,3 +112,5 @@
 	</div>
 </html>
 </body>
+
+<script src="../JS/team_member.js" type="text/javascript"></script>
