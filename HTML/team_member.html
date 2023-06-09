@@ -6,7 +6,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="../JS/team_member.js" type="text/javascript"></script>
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
@@ -113,3 +112,28 @@
 	</div>
 </html>
 </body>
+
+<script>
+$(document).ready(function(){
+	$("#image_frame1").mouseenter(function(){
+		$("#image_hover1").slideDown("slow");
+	});
+	$("#image_frame1").mouseleave(function(){	
+		$("#image_hover1").slideUp("slow");
+	});
+
+	$("#image_frame2").mouseenter(function(){
+		$("#image_hover2").slideDown("slow");
+	});
+	$("#image_frame2").mouseleave(function(){	
+		$("#image_hover2").slideUp("slow");
+	});
+
+	$("#image_frame3").mouseenter(function(){
+		$("#image_hover3").slideDown("slow");
+	});
+	$("#image_frame3").mouseleave(function(){
+		$("#image_hover3").slideUp("slow");
+	});
+});
+</script>
