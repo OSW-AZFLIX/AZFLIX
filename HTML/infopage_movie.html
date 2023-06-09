@@ -11,6 +11,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	
+	<!--<script type="module" src="movie.js"></script>--> <!--json파일 읽어오기-->
+	<script src="../movies.json" type="text/javascript"></script>
 </head>
 
 <style>
@@ -950,7 +953,11 @@
 		</ul>
 	</div>
 	
-
+<script>
+    let movieList = JSON.parse(JSON.stringify(Movie));
+    //console.log(movieList);
+	document.write(movieList[0].value);
+</script>
 
 
 
