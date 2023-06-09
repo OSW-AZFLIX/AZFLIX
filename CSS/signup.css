@@ -1,0 +1,134 @@
+/* main_title */
+.bg{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.525), rgba(0, 0, 0, 0.5) ), url(../IMG/main_bg.jpg);
+  width:100%; 
+  height:160%; 
+  margin:0 auto; 
+  background-size: cover; 
+  border-radius:1.5%;
+  position: absolute;
+}
+
+#topLogo{
+  width: 55%; 
+  height: 80%;
+  margin: 3% 0 1.5% 2%;
+}
+
+.signup-email-body{
+  display: block;
+  position: absolute;
+}
+
+.signup-pwd-body{
+  display: none;
+  position: absolute;
+}
+
+.signup-box{
+  width: 100%;
+  margin: 12% auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 3% 0 3% 0;
+  border: none;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+.signupTitle{
+  color: white;
+  font-size: 2rem;  
+  text-transform: uppercase;
+  margin: 0% 10% 6% 10%;
+}
+
+.signup-input{
+  margin: 0.5% 10% 0.5% 10%;
+  color: white;
+}
+
+#uid{
+  border: none;
+  background-color: rgb(65, 65, 65);
+  font-size: 16px;
+  font-weight: lighter;
+  color: white;
+  text-transform: lowercase;
+  ime-mode: disabled;
+  margin: 0 0 10% 0;
+  padding: 8% 5% 8% 5%;
+}
+#uid::placeholder{
+  color: rgb(192, 192, 192);
+}
+
+#upw{
+  border: none;
+  background-color: rgb(65, 65, 65);
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  ime-mode: disabled;
+  margin: 0 0 7% 0;
+  padding: 8% 5% 8% 5%;
+}
+#upw::placeholder{
+  color: rgb(192, 192, 192);
+}
+
+#signupBtn1{
+  width: 100%;
+  height: 15%;
+  padding: 3.5% 0 3.5% 0;
+  font-size: 15px;
+}
+#signupBtn2{
+  width: 100%;
+  height: 15%;
+  padding: 3.5% 0 3.5% 0;
+  font-size: 15px;
+}
+
+#save-btn{
+  margin: 3.5% 2% 0 0;
+}
+
+#save-text{
+  font-size: 18px;
+  color: rgb(192, 192, 192);
+}
+
+.login-box{
+  margin: 10% 10% 5% 10%;
+}
+
+#login-text{
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+}
+
+#login-btn{
+  font-size: 18px;
+  color: white;
+}
+
+.agreement-cbtn{
+  margin: 0 0 5% 0;
+}
+
+.agreement-text{
+  font-size: 16px;
+}
+
+.signup-footer{
+  position: absolute;
+  top: 750px;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(97, 97, 97);
+}
+
+.footer-text{
+  margin: 5% 20% 5% 20%;
+}
