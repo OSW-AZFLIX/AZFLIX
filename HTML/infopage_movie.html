@@ -13,9 +13,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 	
-	
-	
-	<!--<script type="module" src="movie.js"></script>--> <!--json파일 읽어오기-->
 	<script src="../movies.json" type="text/javascript"></script>
 </head>
 
@@ -731,21 +728,122 @@
 	<div class="poster_title">믿고 보는 AZFLIX 추천작</div>
 	<div class="poster_wrap">
 		<ul>
-			<li class="poster"><img src="../IMG/movie_list/list1.jpg" class="movie_poster"></li>
-			<li class="poster"><img src="../IMG/movie_list/list2.jpg" class="movie_poster"></li>
-			<li class="poster"><img src="../IMG/movie_list/list3.jpg" class="movie_poster"></li>
-			<li class="poster"><img src="../IMG/movie_list/list4.jpg" class="movie_poster"></li>
-			<li class="poster"><img src="../IMG/movie_list/list5.jpg" class="movie_poster"></li>
-			<li class="poster"><img src="../IMG/movie_list/list6.jpg" class="movie_poster"></li>
+			<li class="poster">
+				<p id="list1"></p>
+			</li>
+			<li class="poster">
+				<p id="list2"></p>
+			</li>
+			<li class="poster">
+				<p id="list3"></p>
+			</li>
+			<li class="poster">
+				<p id="list4"></p>
+			</li>
+			<li class="poster">
+				<p id="list5"></p>
+			</li>
+			<li class="poster">
+				<p id="list6"></p>
+			</li>
 		</ul>
 	</div>
 	
-<script>
-    let movieList = JSON.parse(JSON.stringify(Movie));
-    //console.log(movieList);
-	document.write(movieList[0].value);
-</script>
-
+	<div class="poster_title">실시간 인기 콘텐츠</div>
+	<div class="poster_wrap">
+		<ul>
+			<li class="poster">
+				<p id="list7"></p>
+			</li>
+			<li class="poster">
+				<p id="list8"></p>
+			</li>
+			<li class="poster">
+				<p id="list9"></p>
+			</li>
+			<li class="poster">
+				<p id="list10"></p>
+			</li>
+			<li class="poster">
+				<p id="list11"></p>
+			</li>
+			<li class="poster">
+				<p id="list12"></p>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="poster_title">따끈따끈 업데이트</div>
+	<div class="poster_wrap">
+		<ul>
+			<li class="poster">
+				<p id="list13"></p>
+			</li>
+			<li class="poster">
+				<p id="list14"></p>
+			</li>
+			<li class="poster">
+				<p id="list15"></p>
+			</li>
+			<li class="poster">
+				<p id="list16"></p>
+			</li>
+			<li class="poster">
+				<p id="list17"></p>
+			</li>
+			<li class="poster">
+				<p id="list18"></p>
+			</li>
+		</ul>
+	</div>
+		
+	<div class="poster_title">오직 AZFLIX에서</div>
+	<div class="poster_wrap">
+		<ul>
+			<li class="poster">
+				<p id="list25"></p>
+			</li>
+			<li class="poster">
+				<p id="list26"></p>
+			</li>
+			<li class="poster">
+				<p id="list27"></p>
+			</li>
+			<li class="poster">
+				<p id="list28"></p>
+			</li>
+			<li class="poster">
+				<p id="list29"></p>
+			</li>
+			<li class="poster">
+				<p id="list30"></p>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="poster_title">미드폼나는 콘텐츠</div>
+	<div class="poster_wrap">
+		<ul>
+			<li class="poster">
+				<p id="list31"></p>
+			</li>
+			<li class="poster">
+				<p id="list32"></p>
+			</li>
+			<li class="poster">
+				<p id="list33"></p>
+			</li>
+			<li class="poster">
+				<p id="list34"></p>
+			</li>
+			<li class="poster">
+				<p id="list35"></p>
+			</li>
+			<li class="poster">
+				<p id="list36"></p>
+			</li>
+		</ul>
+	</div>
 
 
 	<script>
@@ -866,7 +964,6 @@
 	}
 	
 	
-	
 	//toggle
 	$(".toggle_icon").click(function(){
 		if($(this).text() == "♡"){
@@ -875,5 +972,14 @@
 		   $(this).text("♡");
 		}
 	});
+	
+	//json 연동
+	for (var i = 1; i < 19; i++) {
+	listImg = document.getElementById("list"+i).innerHTML = "<img src='../IMG/" + Movie.movies[i].title + ".png'>";
+	}
+	
+	for (var i = 25; i < 37; i++) {
+	listImg = document.getElementById("list"+i).innerHTML = "<img src='../IMG/" + Movie.movies[i].title + ".png'>";
+	}
 	</script>
 </html>
