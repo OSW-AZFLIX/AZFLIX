@@ -1,62 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" type="text/css" href="../css/login.css">
-  <link rel="stylesheet" type="text/css" href="../css/font.css" >
-  <link rel="preload" href="../fonts/NotoSansKR_WEB/NotoSansKR-DemiLight.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="../fonts/NotoSansKR_WEB/NotoSansKR-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="../fonts/NotoSansKR_WEB/NotoSansKR-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../fonts/fontawesome6.2.1/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AZ-FLIX</title>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="../JS/login.js" type="text/javascript"></script>
+	<script src="../login.json" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../CSS/login.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/font.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 
-<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="background-color:#00081d;">
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false"
+	style="background-color:#00081d;">
 
-	<!--메인div-->
-	<div class="login-wrapper">
-		<div class="login-wrapper-background">
-			
+	<!-- main div-->
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="/">
+					<img id="topLogo" src="../IMG/logo.png" alt="azflix_logo" class="img-responsive" />
+				</a>
+			</div>
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4"></div>
 		</div>
-		<div class="login-header">
-			<h1 class="topLogo"><a href="/"><img src="../IMG/logo1.png" alt="azflix_logo" style="width:190px; height:90px;"/></a></h1>
-		</div>
+	</div>
+	<!-- main div //-->
 
-		<!-- login body -->
-		<div class="login-body">
-			<div class="login-box">
-				<div id="loginTitle">로그인</div>
+	<!-- login body -->
+	<div class="container-fluid login-body">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4 login-box">
+				<div class="loginTitle">로그인</div>
 				<div class="login-input">
-						<input type="text" name="uid" id="uid" class="form-control" value="" style="text-transform:uppercase;ime-mode:disabled">
+					<input type="email" id="uid" class="form-control" value="" placeholder="이메일 주소">
 				</div>
 				<div class="login-input">
-						<input type="password" name="upw" id="upw" class="form-control" value="" autocomplete="off">
+					<input type="password" id="upw" class="form-control" value="" placeholder="비밀번호" autocomplete="off">
 				</div>
-				<div style="">
+				<div class="login-input">
 					<input type="button" id="loginBtn" value="로그인" class="btn btn-danger">
 				</div>
-				<div id="login_btn_box">
-						<div style="">
-							<span> 아이디 저장</span> 
-							<input type="checkbox" id="workSite" name="worksite" style="margin-bottom: 5px">
-						</div>
+				<div class="login-input">
+					<input type="checkbox" id="save-btn" name="worksite" style="margin-bottom: 5px">
+					<span id="save-text">아이디 저장</span>
+				</div>
+				<div class="signup-box">
+					<span id="signup-text">AZFlix회원이 아니신가요?</span>
+					<a id="signup-btn" href="signup.html">지금 가입하세요!</a>
 				</div>
 			</div>
-		</div><!-- login body //-->
-
-		<div class="login-footer">
-
+			<div class="col-sm-4"></div>
 		</div>
-
-		<!-- <div style="padding-top:8%; padding-left:8%; color:#fff; font-weight:700;">
-			<div style="font-size:3.1em; word-break:keep-all;">영화, 시리즈 등을</div>
-			<div style="font-size:3.1em; line-height:70px;">무제한으로</div>
-			<div style="font-size:1.7em; word-break:keep-all; padding-top:30px; line-height:30px; font-weight:500;">다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</div>
-			<div style="font-size:1.5em; word-break:keep-all; padding-top:10px; line-height:30px; font-weight:500;">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</div>
-		</div> -->
-
 	</div>
+	<!-- login body //-->
+
+	<div class="container-fluid login-footer">
+		<div class="row">
+			<div class="col-sm-8 footer-text">
+				AZFLIX KOREA | 통신판매업신고번호:제2023-충북청주-0205호 | 전화번호: 080-261-2260
+				<br><br>
+				대표 : 조민규,배기원,강태광
+				<br><br>
+				이메일 주소: korea@azflix.com
+				<br>
+				주소: 대한민국 충북 청주시 서원구 충대로 1 215호 (28644)
+				<br><br>
+				사업자등록번호: 205-23-03030
+				<br><br>
+				클라우드 호스팅: Amazon Web Services Inc.
+			</div>
+		</div>
+	</div>
+
 </body>
+
 </html>
