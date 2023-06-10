@@ -4,6 +4,9 @@
 #header{white-space:nowrap; width:95%; margin:0 auto;}
 .header_nav{color:#fff; padding-right:50px; line-height:70px; font-weight:600;}
 
+.main_title{word-break:keep-all; font-size:2em; color:#fff; font-weight:600; text-align:left;}
+.main_explain{word-break:keep-all; font-size:1.2em; line-height:35px; font-weight:500; color:#fff; text-align:left;}
+
 .title-font{text-align:left; word-break:keep-all;}
 
 .poster_title{width:1300px; margin:0 auto; padding-top:3%; font-size:1.8em; color:#fff; font-weight:600;}
