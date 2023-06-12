@@ -432,7 +432,7 @@ function paymentChart() {
         [jsonData.monthly_data[11].month, jsonData.monthly_data[11].payment, jsonData.monthly_data[11].payment.toString()]
     ]);
     var options = {
-        title: 'Monthly Payment',
+        title: 'Monthly Payment'
     };
 
     var chart = new google.visualization.ColumnChart(document.getElementById('payment'));
