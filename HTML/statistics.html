@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AZ-FLIX</title>
 
+        <link rel="stylesheet" type="text/css" href="../CSS/statistics.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
         <script type="text/javascript">
@@ -20,18 +22,40 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body style="background-color: #00081d;">
-        <div id="header_wrap" style="width:90%; margin:0 auto; padding:0.5% 0 0.3% 0;" class="container-fluid" >
-            <div id="login_wrap" style="float:right; padding-top:1%;">
-                <a href="#"><button type="button" class="btn btn-danger" style="font-size:14px">My Page</button></a>
-            </div>
-            <div id="header" style="width:170px; height:70px;">
-                <h1 class="top_logo"><a href="/"><img src="../IMG/logo.png" style="width:170px; height:70px;"></a></h1>
+        <div id="header">
+            <div class="top_logo">
+                <a href="./infopage_movie.html"><img src="https://osw-azflix.github.io/IMG/logo.png" alt="azflix_logo" style="float:left; width:170px; height:70px;"/></a>
+                
+                <div style="white-space:nowrap; float:right;">
+                    <span id="nav_menu">
+                        <span class="header_nav">
+                            <a href="./infopage_movie.html">HOME</a>
+                        </span>
+                        
+                        <span class="header_nav">
+                            <a href="./team_member.html">TEAM MEMBER</a>
+                        </span>
+                        
+                        <span class="header_nav">
+                            <a href="./search.html">SEARCH</a>
+                        </span>
+                        
+                        <span class="header_nav">
+                            <a href="./statistics.html">STATISTICS</a>
+                        </span>
+                    </span>
+                    <span class="login_wrap">
+                        <a href="/index.html">
+                            <button type="button" class="btn btn-danger" style="font-size:14px;">Logout</button>
+                        </a>
+                    </span>
+                </div>
             </div>
         </div>
 
         <!-- chart창 -->
         <div id="main_box" class="container-fluid" style="padding-top:1%;">
-            <div id="select_month" style="margin-top:3%; margin-left:5%; margin-bottom:2%; color:white; font-weight:bold; font-size: 30px;">SELECT MONTH </div>
+            <div id="select_month" style="margin-top:7%; margin-left:5%; margin-bottom:2%; color:white; font-weight:bold; font-size: 30px;">SELECT MONTH </div>
             <div id="button_div" class="row" style="margin-bottom: 3%; margin-left: 1%;">
                 <div class="col-md-1">
                     <button type="button" class="btn btn-secondary btn-lg" style="border-radius:30px" onclick="showChart(this)">Jan</button>

@@ -1,0 +1,11 @@
+#header{
+    white-space:nowrap;
+    width:95%;
+    margin:0 auto;
+}
+.header_nav{
+    color:#fff;
+    padding-right:50px;
+    line-height:70px;
+    font-weight:600;
+}
