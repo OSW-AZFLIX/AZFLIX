@@ -2,163 +2,363 @@ Movie = {
     "movies" : [
         {
             "title": "School of Rock",
-            "genre": "music"
+            "genre": "music",
+            "link": "https://www.youtube.com/embed/3PsUJFEBC74",
+            "story": "록 밴드 단원인 듀이 핀은 로커답지 않게 뚱뚱하고 촌스러운 외모와 공연도중 돌발적인 행동 때문에 밴드에서 쫓겨 난다. 초등학교 보조교사로 일하는 친구의 집에 얹혀살다 월세까지 밀려 돈이 필요하던 순간 친구의 이름을 사칭하고, 초등학교에 취직한다. 음악 밖에 모르던 듀이는 수업대신 학생들과 함께 밴드를 결성하고 경연대회에 출전하려고 하는데……",
+            "actor": "Jack Black, ...",
+            "director": "Richard Linklater",
+            "year": 2003
         },
         {
             "title": "Whiplash",
-            "genre": "music"
+            "genre": "music",
+            "link": "https://www.youtube.com/embed/Qsbu5Phz6u8",
+            "story": "\"박자가 안 맞잖아, 다시!\"뉴욕의 명문 셰이퍼 음악학교에서 최고의 스튜디오 밴드에 들어가게 된 신입생 '앤드류' 최고의 지휘자이지만 동시에 최악의 폭군인 '플레쳐'교수는 폭언과 학대로 '앤드류'를 한계까지 몰아붙이고 또 몰아붙인다. 드럼 주위로 뚝뚝 떨어지는 피, 빠르게 달리는 선율 뒤로 아득해지는 의식, 그 순간, 드럼에 대한 앤드류의 집착과 광기가 폭발한다. 최고의 연주를 위한 완벽한 스윙이 시작된다!",
+            "actor": "Miles Teller, ...",
+            "director": "Damien Chazelle",
+            "year": 2014
         },
         {
             "title": "The Shawshank Redemption",
-            "genre": "drama"
+            "genre": "drama",
+            "link": "https://www.youtube.com/embed/PLl99DlL6b4",
+            "story": "두려움은 너를 죄수로 가두고 희망은 너를 자유롭게 하리라 촉망 받던 은행 부지점장 ‘앤디(팀 로빈스 分)’는 아내와 그 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범들이 수감된 이곳에서 재소자들은 짐승 취급 당하고, 혹여 간수 눈에 잘못 보였다가는 개죽음 당하기 십상이다. 처음엔 적응 못하던 ‘앤디’는 교도소 내 모든 물건을 구해주는 ‘레드(모건 프리먼 分)’와 친해지며 교도소 생활에 적응하려 하지만, 악질 재소자에게 걸려 강간까지 당한다. 그러던 어느 날, 간수장의 세금 면제를 도와주며 간수들의 비공식 회계사로 일하게 되고, 마침내는 소장의 검은 돈까지 관리해주게 된다. 덕분에 교도소 내 도서관을 열 수 있게 되었을 무렵, 신참내기 ‘토미(길 벨로우스 分)’로부터 ‘앤디’의 무죄를 입증할 기회를 얻지만, 노튼 소장은 ‘앤디’를 독방에 가두고 ‘토미’를 무참히 죽여버리는데...",
+            "actor": "Tim Robbins, ...",
+            "director": "Frank Darabont",
+            "year": 1994
         },
         {
             "title": "The Avengers",
-            "genre": "hero"
+            "genre": "hero",
+            "link": "https://www.youtube.com/embed/eOrNdBpGMv8",
+            "story": "ASSEMBLE! 최강의 슈퍼히어로들이 모였다!지구의 운명을 건 거대한 전쟁이 시작된다!지구의 안보가 위협당하는 위기의 상황에서 슈퍼히어로들을 불러모아 세상을 구하는, 일명 [어벤져스] 작전. 에너지원 ‘큐브’를 이용한 적의 등장으로 인류가 위험에 처하자 국제평화유지기구인 쉴드 (S.H.I.E.L.D)의 국장 닉 퓨리(사무엘 L.잭슨)는 [어벤져스] 작전을 위해 전 세계에 흩어져 있던 슈퍼히어로들을 찾아나선다. 아이언맨(로버트 다우니 주니어)부터 토르(크리스 헴스워스), 헐크(마크 러팔로), 캡틴 아메리카(크리스 에반스)는 물론, 쉴드의 요원인 블랙 위도우(스칼렛 요한슨), 호크 아이(제레미 레너)까지, 최고의 슈퍼히어로들이 [어벤져스]의 멤버로 모이게 되지만, 각기 개성이 강한 이들의 만남은 예상치 못한 방향으로 흘러가는데… 지구의 운명을 건 거대한 전쟁 앞에 [어벤져스] 작전은 성공할 수 있을까?",
+            "actor": "Robert Downey Jr., ...",
+            "director": "Joss Whedon",
+            "year": 2012
         },
         {
             "title": "Avengers_Age of Ultron",
-            "genre": "hero"
+            "genre": "hero",
+            "link": "https://www.youtube.com/embed/ahpmzmDOGoQ",
+            "story": "쉴드의 숙적 히드라는 연구를 통해 새로운 능력자 막시모프 남매를 탄생시키고, 히드라의 기지를 공격하는 도중 토니 스타크는 완다 막시모프의 초능력으로 인해 자신이 가장 두려워하는 미래를 보게 된다. 이에 '뉴욕전쟁' 때와 같은 사태가 벌어지지 않도록 스타크는 배너 박사와 함께 지구를 지킬 최강의 인공지능 울트론을 탄생시키게 되지만, 울트론은 예상과 다르게 지배를 벗어나 폭주하기 시작하는데...",
+            "actor": "Robert Downey Jr., ...",
+            "director": "Joss Whedon",
+            "year": 2015
         },
         {
             "title": "Avengers_Infinity War",
-            "genre": "hero"
+            "genre": "hero",
+            "link": "https://www.youtube.com/embed/F0kvfk1ghjA",
+            "story": "가디언즈 오브 갤럭시 멤버들과 와칸다 군대, 닥터 스트레인지 등 새로운 팀들과 함께 환상의 대연합을 이룬 어벤져스, 역대 최강 빌런 타노스에 맞서 전 우주에 운명이 걸린 인피니티 스톤을 향한 무한 대결이 펼쳐진다! 마블의 클라이맥스를 목격하라!",
+            "actor": "Robert Downey Jr., ...",
+            "director": "Anthony Russo, Joe Russo",
+            "year": 2018
         },
         {
             "title": "Avengers_Endgame",
-            "genre": "hero"
+            "genre": "hero",
+            "link": "https://www.youtube.com/embed/TcMBFSGVi1c",
+            "story": "인피니티 워 이후 절반만 살아남은 지구, 마지막 희망이 된 어벤져스. 먼저 떠난 그들을 위해 모든 것을 걸었다! 위대한 어벤져스, 운명을 바꿀 최후의 전쟁이 펼쳐진다!",
+            "actor": "Robert Downey Jr., ...",
+            "director": "Anthony Russo, Joe Russo",
+            "year": 2019
         },
         {
             "title": "Suzume",
-            "genre": "animation"
+            "genre": "animation",
+            "link": "https://www.youtube.com/embed/x1Y_pud2_FY",
+            "story": "“이 근처에 폐허 없니? 문을 찾고 있어” 규슈의 한적한 마을에 살고 있는 소녀 ‘스즈메’는 문을 찾아 여행 중인 청년 ‘소타’를 만난다. 그의 뒤를 쫓아 산속 폐허에서 발견한 낡은 문. ‘스즈메’가 무언가에 이끌리듯 문을 열자 마을에 재난의 위기가 닥쳐오고 가문 대대로 문 너머의 재난을 봉인하는 ‘소타’를 도와 간신히 문을 닫는다. “닫아야만 하잖아요, 여기를!” 재난을 막았다는 안도감도 잠시, 수수께끼의 고양이 ‘다이진’이 나타나 ‘소타’를 의자로 바꿔 버리고 일본 각지의 폐허에 재난을 부르는 문이 열리기 시작하자 ‘스즈메’는 의자가 된 ‘소타’와 함께 재난을 막기 위한 여정에 나선다. “꿈이 아니었어” 규슈, 시코쿠, 고베, 도쿄 재난을 막기 위해 일본 전역을 돌며 필사적으로 문을 닫아가던 중 어릴 적 고향에 닿은 ‘스즈메’는 잊고 있던 진실과 마주하게 되는데…",
+            "actor": "Hara Nanoka, ...",
+            "director": "Makoto Shinkai",
+            "year": 2022
         },
         {
             "title": "Spirited Away",
-            "genre": "animation"
+            "genre": "animation",
+            "link": "https://www.youtube.com/embed/ByXuk9QqQkk",
+            "story": "금지된 세계의 문이 열렸다! 이사 가던 날, 수상한 터널을 지나자 인간에게는 금지된 신들의 세계로 오게 된 치히로... 신들의 음식을 먹은 치히로의 부모님은 돼지로 변해버린다. “걱정마, 내가 꼭 구해줄게…” 겁에 질린 치히로에게 다가온 정체불명의 소년 하쿠. 그의 따뜻한 말에 힘을 얻은 치히로는 인간 세계로 돌아가기 위해 사상 초유의 미션을 시작하는데…",
+            "actor": "Miyu Irino, ...",
+            "director": "Miyazaki Hayao",
+            "year": 2001
         },
         {
             "title": "Fast X",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/zmNRHgRG3lo",
+            "story": "아무리 빨리 달려도 과거를 앞지를 순 없다 돔(빈 디젤)과 그의 패밀리 앞에 나타난 운명의 적 단테(제이슨 모모아). 과거의 그림자는 돔의 모든 것을 파괴하기 위해 달려온다. 단테에 의해 산산히 흩어진 패밀리들은 모두 목숨을 걸고 맞서야 하는 함정에 빠지고 마는데... 달리거나 죽거나, 그들의 마지막 질주가 시작된다!",
+            "actor": "Vin Diesel, ...",
+            "director": "Louis Leterrier",
+            "year": 2023
         },
         {
             "title": "Avatar",
-            "genre": "SF"
+            "genre": "SF",
+            "link": "https://www.youtube.com/embed/5PSNL1qE6VY",
+            "story": "인류의 마지막 희망, 행성 판도라! 이곳을 정복하기 위한 ‘아바타 프로젝트’가 시작된다! 가까운 미래, 지구는 에너지 고갈 문제를 해결하기 위해 머나먼 행성 판도라에서 대체 자원을 채굴하기 시작한다. 하지만 판도라의 독성을 지닌 대기로 인해 자원 획득에 어려움을 겪게 된 인류는 판도라의 토착민 나비족(Na'vi)의 외형에 인간의 의식을 주입, 원격 조종이 가능한 새로운 생명체 ‘아바타’를 탄생시키는 프로그램을 개발한다. 평범한 삶을 살아가던 전직 해병대원 제이크, 우주의 미래가 걸린 거대한 운명이 그에게 찾아왔다! 한편, 하반신이 마비된 전직 해병대원 ‘제이크 설리(샘 워싱턴)’는 ‘아바타 프로그램’에 참가할 것을 제안 받아 판도라로 향한다. 그곳에서 자신의 ‘아바타’를 통해 자유롭게 걸을 수 있게 된 ‘제이크’는 자원 채굴을 막으려는 나비족(Na'vi)의 무리에 침투하라는 임무를 부여 받는다. 임무 수행 중 나비족(Na'vi)의 여전사 ‘네이티리(조 샐다나)’를 만난 ‘제이크’는 그녀와 함께 다채로운 모험을 경험하면서 ‘네이티리’를 사랑하게 되고, 그들과 하나가 되어간다. 하지만 머지않아 전 우주의 운명을 결정짓는 대규모 전투가 시작되면서 ‘제이크’는 최후의 시험대에 오르게 되는데…. 행성 판도라와 지구의 피할 수 없는 전쟁! 이 모든 운명을 손에 쥔 제이크의 선택은?",
+            "actor": "Sam Worthington, ...",
+            "director": "James Cameron",
+            "year": 2009
         },
         {
             "title": "Avatar2",
-            "genre": "SF"
+            "genre": "SF",
+            "link": "https://www.youtube.com/embed/kihrFxwdMb4",
+            "story": "신비로운 판도라 행성의 광활한 바다를 배경으로 하는 《아바타》의 후속작. 10여 년이 흐른 후 하늘의 사람들이 돌아오며 시작된 설리 가족의 새로운 여정과 싸움을 그렸다.",
+            "actor": "Sam Worthington, ...",
+            "director": "James Cameron",
+            "year": 2022
         },
         {
             "title": "Interstellar",
-            "genre": "SF"
+            "genre": "SF",
+            "link": "https://www.youtube.com/embed/66_Iosx46DI",
+            "story": "“우린 답을 찾을 거야, 늘 그랬듯이” 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 이때 시공간에 불가사의한 틈이 열리고, 남은 자들에게는 이 곳을 탐험해 인류를 구해야 하는 임무가 주어진다. 사랑하는 가족들을 뒤로 한 채 인류라는 더 큰 가족을 위해, 그들은 이제 희망을 찾아 우주로 간다. 그리고 우린 답을 찾을 것이다. 늘 그랬듯이...",
+            "actor": "Matthew McConaughey, ...",
+            "director": "Christopher Nolan",
+            "year": 2014
         },
         {
             "title": "The Outlaws",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/n-dYGqVVgU4",
+            "story": "2004년 하얼빈에서 넘어와 순식간에 대한민국을 공포로 몰아 넣은 신흥 범죄조직을 잡기 위한 괴물 같은 강력반 형사들의 끝.짱.나.는. 실제 '조폭 소탕 작전'을 영화화한 실화 범죄액션. 오늘 밤, 다 쓸어버린다! 2004년 서울. 하얼빈에서 넘어와 단숨에 기존 조직들을 장악하고 가장 강력한 세력인 춘식이파 보스 ‘황 사장(조재윤)’까지 위협하며 도시 일대의 최강자로 급부상한 신흥 범죄조직의 악랄한 보스 '장첸(윤계상)'. 대한민국을 뒤흔든 '장첸(윤계상)' 일당을 잡기 위해 오직 주먹 한 방으로 도시의 평화를 유지해 온 괴물 형사 ‘마석도(마동석)’와 인간미 넘치는 든든한 리더 '전일만(최귀화)' 반장이 이끄는 강력반은 나쁜 놈들을 한 방에 쓸어버릴 끝.짱.나.는. 작전을 세우는데… 통쾌하고! 화끈하고! 살벌하게! 나쁜 놈들 때려잡는 강력반 형사들의 ‘조폭 소탕 작전’이 시작된다!",
+            "actor": "Don Lee, ...",
+            "director": "Kang Yun-sung",
+            "year": 2017
         },
         {
             "title": "Extreme Job",
-            "genre": "comedy"
+            "genre": "comedy",
+            "link": "https://www.youtube.com/embed/BaIRaKXrLPk",
+            "story": "낮에는 치킨장사! 밤에는 잠복근무! 지금까지 이런 수사는 없었다! 불철주야 달리고 구르지만 실적은 바닥, 급기야 해체 위기를 맞는 마약반! 더 이상 물러설 곳이 없는 팀의 맏형 고 반장(류승룡)은 국제 범죄조직의 국내 마약 밀반입 정황을 포착하고 장 형사(이하늬), 마 형사(진선규), 영호(이동휘), 재훈(공명)까지 4명의 팀원들과 >함께 잠복 수사에 나선다. 마약반은 24시간 감시를 위해 범죄조직의 아지트 앞 치킨집을 인수해 위장 창업을 하게 되고, 뜻밖의 절대미각을 지닌 마 형사의 숨은 재능으로 치킨집은 일약 맛집으로 입소문이 나기 시작한다. 수사는 뒷전, 치킨장사로 눈코 뜰 새 없이 바빠진 마약반에 어느 날 절호의 기회가 찾아오는데… 범인을 잡을 것인가, 닭을 잡을 것인가!",
+            "actor": "Ryu Seung-ryong, ...",
+            "director": "Lee Byeon-heon",
+            "year": 2019
         },
         {
             "title": "Veteran",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/hcKp68DtBb0",
+            "story": "베테랑 광역수사대 VS 유아독존 재벌 3세, 자존심을 건 한판 대결이 시작된다! 한번 필이 꽂히면 끝장을 볼때까지 파고드는 서도철, 껄렁함과 시원스러운 발차기가 몸에 베인 위장전문 홍일점 미스 봉, 육체파 왕형사와 신참내기 윤형사, 팀을 책임지고 있는 경력 20년차 오 팀장. 광수대 베테랑 형사인 그들은 중고차 사기범들을 멋지게 일망타진해내며 승진을 눈앞에 두고 한창 즐거워하고 있던 어느날, 도철은 아는 후배의 인맥으로 신진물산 셋째아들 조태오가 주최한 술자리에 초대받는다. 말끔하게 생긴 겉모습과는 달리 종종 이상한 행동을 자주하는 그를 보는 순간, 도철은 알수없는 수상함을 느낀다. 하지만 수상함이 채 가시기도 전에 사건이 터졌다. 중고차 사기범들을 쫓으면서 알게된 화물차 운전기사 배철웅 기사가 임금문제로 신진물산에 항의하러 갔다가 건물 비상계단에서 뛰어내려 자살시도를 했다는 것이다. 그러나 도철이 아는 철웅은 하나뿐인 아들을 학교에 보내기 위해 밤낮으로 화물차를 운전하는 사람이었고 절대로 처자식을 두고 세상과 작별할 사람이 아니었다. 뿐만 아니라 아이는 석연찮은 이야기를 들려준다. 아빠가 낯선 아저씨한테 잔뜩 두들겨 맞은 다음 한 양복쟁이 아저씨로부터 수표 몇장을 건네받았다는 것이었다. 문제의 양복쟁이는 전부터 수상하게 여기고 있던 조태오였다. 그는 곧바로 신진물산을 찾아갔지만 도철을 맞이한건 태오가 아닌 그의 오른팔 최대웅 상무. 대웅은 자기네 회사에선 그런 일이 일어난 적이 없으며 CCTV도 점검 때문에 꺼져 있어서 증거도 없으니 그만 돌아가라고 했고 담당 형사들 역시 철웅의 사건을 자살로 결론지으며 마무리하려 들었다. 하지만 베테랑 형사의 직감으로 그들이 뭔가 감추고 있음을 직감한 도철은 독단적으로 사건의 정황을 추리하기 시작했고 마침내, 태오가 철웅을 다치게 한 것도 모자라 금방 병원에만 데려갔어도 무사할 수 있었던 사람을 계단에 밀어 넘어뜨리기까지 했다는걸 알게 되자 완전히 뚜껑이 열렸고 그를 구속시키려 들었다. 하지만 태오는 이런 도철을 비웃기라도 하듯 돈줄과 권력을 동원해 도철의 모든 수사방향을 차단시켜 버리는데...",
+            "actor": "Hwang Jung-min, ...",
+            "director": "Ryu Seung-wan",
+            "year": 2015
         },
         {
             "title": "Ip Man 4_The Finale",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/ULLvmU1Laqc",
+            "story": "이제 마지막을 함께 할 시간 아낌없이 불태운다! 영춘권 최고수 ‘엽문’(견자단)은 아들의 미래를 위해 미국으로 향한다. 그곳에는 자신의 제자 이소룡이 점점 유명세를 이어가며 세상의 눈길을 사로잡고 있다. 엽문은 그곳에서 이해할 수 없는 이유로 자신의 앞을 막아서는 중화회관의 사부들과 대립하게 된다. 특히 태극권의 고수 만종화와는 대결까지 벌이게 된다. 한편 이들을 못마땅히 여기는 이민국과 해병대가 자행하는 불의를 목격한 엽문은 진정한 무예의 정신을 품고 맞서게 되는데...",
+            "actor": "Donnie Yen, ...",
+            "director": "Wilson Yip",
+            "year": 2019
         },
         {
             "title": "My Puppy",
-            "genre": "comedy"
+            "genre": "comedy",
+            "link": "https://www.youtube.com/embed/kHzgRPver_o",
+            "story": "\"'루니'의 새 집사를 찾아라!\" 동생 같은 반려견 ‘루니’를 위해 정시 퇴근에 진심인 ‘민수' 결혼을 앞둔 그에게 닥친 집사 인생 조기 로그아웃 위기! 야심 차게 오픈한 카페는 말아먹고 인생 자체가 위기인 사촌형 '진국', '민수'의 다급한 SOS에 고심하다 새 집사 면접을 제안하게 되고. 완벽한 집사를 찾기 위해 제주도로 향하는 두 형제의 여정에 느닷없는 멍뭉이들의 등장이 이어지는데! 뜻밖의 ‘견’명적인 만남 함께 하면 개신나고! 개따뜻한! 개귀엽 버라이어티 무비!",
+            "actor": "Yoo Yeonseok, ...",
+            "director": "Kim Joo-hwan",
+            "year": 2023
         },
         {
             "title": "STAFF ONLY",
-            "genre": "culture"
+            "genre": "culture",
+            "link": "https://www.youtube.com/embed/b9oh_qNJvVM",
+            "story": "“출입을 금할지라도 그곳의 이야기마저 가두지 말자” 이 세상 모든 <관계자 외 출입금지> 구역에선 어떤 일들이 벌어지고 있을까? 외부인은 다가갈 수도, 들여다볼 수도 없는 곳. 그래서 더욱 주목받지 못하고 오해받기 쉬운 곳. 지도에도, 네비게이션에도 표시되지 않는 <관계자 외 출입금지> 구역 그 곳에선 어떤 일들이 벌어지고 있을까? 당신에게 비밀의 문을 열어볼 수 있는 무한 출입증이 오늘 단 하루 주어진다면? “오늘 하루, 모든 금지 구역의 이야기를 봉인 해제한다!” 과연 주어진 시간 동안 굳게 닫힌 금지구역을 열고 갇혀있던 수많은 이야기들을 해방시킬 수 있을 것인가!",
+            "actor": "Kim Jong-kook, ...",
+            "director": "Kim Tae-hee",
+            "year": 2023
         },
         {
             "title": "Fantasy Boys_My Teenage Boys",
-            "genre": "audition"
+            "genre": "audition",
+            "link": "https://www.youtube.com/embed/mk_zgKyzEG0",
+            "story": "설레는 봄, 당신의 판타지를 채워 줄 신개념 보이그룹 오디션이 펼쳐진다! 전 세계를 설레게 할 판타지 소년은 과연 누가 될 것인가!?",
+            "actor": "Max Changmin, ...",
+            "director": "Han Dong-cheol",
+            "year": 2023
         },
         {
             "title": "Radio Star",
-            "genre": "entertainment"
+            "genre": "entertainment",
+            "link": "https://www.youtube.com/embed/N7-Dwg6esQE",
+            "story": "고품격 음악방송, 들리는 TV, 라디오 스타!",
+            "actor": "Kim Kook-jin, ...",
+            "director": "Park Hyun-jung",
+            "year": 2007
         },
         {
             "title": "Kkokkomu",
-            "genre": "current affairs"
+            "genre": "current affairs",
+            "link": "https://www.youtube.com/embed/6uBueaJNfKY",
+            "story": "'그날' 이야기를 들은 '오늘' 당신의 생각은?",
+            "actor": "Jang Doyoun, ...",
+            "director": "Kim Jae-won",
+            "year": 2021
         },
         {
             "title": "Pinkfong",
-            "genre": "animation"
+            "genre": "animation",
+            "link": "https://www.youtube.com/embed/XNQv0YANyto",
+            "story": "우주여행을 떠난 핑크퐁과 아기상어 올리. 근데 갑자기 운석이 날아와 우주선에 부딪혔어요. 이걸 어쩌죠? 우주선의 별이 산산이 조각났거든요. 별 없인 집으로 못 돌아가는데. 그렇담 이제 사라진 별 조각을 찾아 우주 탐험을 시작해볼까요?",
+            "actor": "Cho Kyung-yi, ...",
+            "director": "Kim Soo-kyung",
+            "year": 2019
         },
         {
             "title": "Harry Potter and the Philosopher's Stone",
-            "genre": "fantasy"
+            "genre": "fantasy",
+            "link": "https://www.youtube.com/embed/PbdM1db3JbY",
+            "story": "친척집에서 구박받는 생활을 하던 해리는 11살 생일을 앞두고 호그와트 마법학교로부터 입학초대장을 받고 자신이 마법사라는 사실을 알게 된다. 해리는 호그와트 마법학교로 가는 열차에서 친구 론과 헤르미온느를 사귀고 함께 마법과 신비, 모험으로 가득한 학교생활을 시작한다.",
+            "actor": "Daniel Radcliffe, ...",
+            "director": "Chris Columbus",
+            "year": 2001
         },
         {
             "title": "I'm SOLO",
-            "genre": "reality"
+            "genre": "reality",
+            "link": "https://www.youtube.com/embed/yZMrNkVtDfQ",
+            "story": "결혼을 간절히 원하는 솔로 남녀들이 모여 사랑을 찾기 위해 고군분투하는 극사실주의 데이팅 프로그램.",
+            "actor": "DEFCONN, ...",
+            "director": "Kim Tae-hyung",
+            "year": 2021
         },
         {
             "title": "Greek Myth",
-            "genre": "history"
+            "genre": "history",
+            "link": "https://www.youtube.com/embed/4DsKEUHiA9k",
+            "story": "인류의 고전 필독서가 예능과 만났다! 타고난 스토리텔러 설민석이 펼치는 쉽고 재밌는 어른들을 위한 <그리스 로마 신화> 매운맛 이야기! 탁월한 역사 지식 예능의 귀환.",
+            "actor": "Seol Minseok, ...",
+            "director": "Kwon Oh-yong",
+            "year": 2022
         },
         {
             "title": "The Roundup",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/DfqBfjboSNE",
+            "story": "“느낌 오지? 이 놈 잡아야 하는 거” 가리봉동 소탕작전 후 4년 뒤, 금천서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는다. 괴물형사 ‘마석도’(마동석)와 ‘전일만’(최귀화) 반장은 현지 용의자에게서 수상함을 느끼고, 그의 뒤에 무자비한 악행을 벌이는 ‘강해상’(손석구)이 있음을 알게 된다. ‘마석도’와 금천서 강력반은 한국과 베트남을 오가며 역대급 범죄를 저지르는 ‘강해상’을 본격적으로 쫓기 시작하는데... 나쁜 놈들 잡는 데 국경 없다! '통쾌하고 화끈한 범죄 소탕 작전이 다시 펼쳐진다!",
+            "actor": "Don Lee, ...",
+            "director": "Lee Sang-yong",
+            "year": 2022
         },
         {
             "title": "The Roundup_No Way Out",
-            "genre": "action"
+            "genre": "action",
+            "link": "https://www.youtube.com/embed/4p7WZmM3Bk8",
+            "story": "대체불가 괴물형사 마석도, 서울 광수대로 발탁! 베트남 납치 살해범 검거 후 7년 뒤, ‘마석도’(마동석)는 새로운 팀원들과 함께 살인사건을 조사한다. 사건 조사 중, ‘마석도’는 신종 마약 사건이 연루되었음을 알게 되고 수사를 확대한다. 한편, 마약 사건의 배후인 '주성철'(이준혁)은 계속해서 판을 키워가고 약을 유통하던 일본 조직과 '리키'(아오키 무네타카)까지 한국에 들어오며 사건의 규모는 점점 더 커져가는데... 나쁜 놈들 잡는 데 이유 없고 제한 없다 커진 판도 시원하게 싹 쓸어버린다!",
+            "actor": "Don Lee, ...",
+            "director": "Lee Sang-yong",
+            "year": 2023
         },
         {
             "title": "Train to Busan",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/UOTOjA0ngmk",
+            "story": "전대미문의 재난이 대한민국을 덮친다! 정체불명의 바이러스가 전국으로 확산되고 대한민국 긴급재난경보령이 선포된 가운데, 열차에 몸을 실은 사람들은 단 하나의 안전한 도시 부산까지 살아가기 위한 치열한 사투를 벌이게 된다. 서울에서 부산까지의 거리 442 ㎞ 지키고 싶은, 지켜야만 하는 사람들의 극한의 사투!",
+            "actor": "Gong Yoo, ...",
+            "director": "Yeon Sang-ho",
+            "year": 2016
         },
         {
             "title": "Peninsula",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/fcueArgm800",
+            "story": "부산행 4년 후, 최후의 안전지대였던 부산마저 함락된 이후 폐허가 된 반도에서 벌어지는 이야기. 전대미문의 재난 그 후 4년 폐허의 땅으로 다시 들어간다!",
+            "actor": "Gang Dong-won, ...",
+            "director": "Yeon Sang-ho",
+            "year": 2020
         },
         {
             "title": "Annabelle",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/JCR4lpG5860",
+            "story": "'컨저링' 1년 전, '애나벨'이 있었다...'컨저링'의 1년 전! 존은 임신 중인 아내 미아에게 흰색의 드레스를 입은 빈티지 인형을 선물한다. 그날 밤, 낯선 부부가 침입해 존과 미아를 공격한다. 한참의 격투 끝에 발견된 건 인형을 무릎 위에 놓고 죽어있는 여인. 여인에게서 흘러내린 피가 인형의 얼굴로 스며들어가는데... 한 달에 한 번, 신부님이 기도로 그 안의 악령을 다스린다는 '애나벨'은 그렇게 태어난다...",
+            "actor": "Annabelle Wallis, ...",
+            "director": "John R. Leonetti",
+            "year": 2014
         },
         {
             "title": "Old People",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/71nji7vVHMQ",
+            "story": "결혼식에 참석하기 위해 작은 마을로 온 가족들이 갑자기 노인들에게 공격을 당하면서 벌어지는 일들을 다룬 공포영화",
+            "actor": "Melika Foroutan, ...",
+            "director": "Andy Fetscher",
+            "year": 2022
         },
         {
             "title": "The Wailing",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/Ej25zrnaTXk",
+            "story": "절대 현혹되지 마라 미끼를 물었다 낯선 외지인이 나타난 후 벌어지는 의문의 연쇄 사건들로 마을이 발칵 뒤집힌다. 경찰은 집단 야생 버섯 중독으로 잠정적 결론을 내리지만 모든 사건의 원인이 그 외지인 >때문이라는 소문과 의심이 걷잡을 수 없이 퍼져 나간다. 경찰 ‘종구’(곽도원 扮)는 현장을 목격했다는 여인 ‘무명’(천우희 扮)을 만나면서 외지인에 대한 소문을 확신하기 시작한다. 딸 ‘효진’이 피해자들과 비슷한 증상으로 아파오기 시작하자 다급해진 ‘종구’. 외지인을 찾아 난동을 부리고, 무속인 ‘일광’(황정민 扮)을 불러 들이는데... ||",
+            "actor": "Kwak Do-won, ...",
+            "director": "Na Hong-jin",
+            "year": 2016
         },
         {
             "title": "GONJIAM",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/CjcVZVxL_3c",
+            "story": "가지 말라는 곳에는 반드시 이유가 있다. 공포 체험의 성지 '곤지암 정신병원' 1979년 환자 42명의 집단 자살과 병원장의 실종 이후, 섬뜩한 괴담으로 둘러싸인 곤지암 정신병원으로 공포 체험을 떠난 7명의 멤버들 원장실, 집단치료실, 실험실, 열리지 않는 402호... 괴담의 실체를 담아내기 위해 병원 내부를 촬영하기 시작하던 멤버들에게 상상도 못한 기이하고 공포스러운 일들이 실제로 벌어지기 시작하는데... 가지 말라는 곳에는 반드시 이유가 있다. 소름 끼치는 '곤지암 정신병원'의 실체를 체험하라!",
+            "actor": "Wi Hajun, ...",
+            "director": "Jung Bum-sik",
+            "year": 2018
         },
         {
             "title": "Happy Death Day",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/MdzIICVcJXo",
+            "story": "“죽을 때까지 놀아줄게” 생일날 반복되는 죽음이라는 특별한 선물을 받은 여대생의 끝나지 않는 파티",
+            "actor": "Jessica Rothe, ...",
+            "director": "Christopher Landon",
+            "year": 2017
         },
         {
             "title": "One Missed Call",
-            "genre": "horror"
+            "genre": "horror",
+            "link": "https://www.youtube.com/embed/H9-fOJHnjm0",
+            "story": "자신의 죽음을 미리 알려주는 저주의 벨소리!! 일본영화 <착신아리>의 헐리웃 리메이크작",
+            "actor": "Shannyn Sossamon, ...",
+            "director": "Eric Valette",
+            "year": 2008
         },
         {
             "title": "August Rush",
-            "genre": "romance"
+            "genre": "romance",
+            "link": "https://www.youtube.com/embed/zhpwjrbeoJQ",
+            "story": "꿈보다 아름답던 단 하룻밤, 그 이후.. 음악이 있는 한, 우리는 다시 만나게 될 거야",
+            "actor": "Freddie Highmore, ...",
+            "director": "Kirsten Sheridan",
+            "year": 2007
         },
         {
             "title": "About Time",
-            "genre": "romance"
+            "genre": "romance",
+            "link": "https://www.youtube.com/embed/7OIFdWk83no",
+            "story": "모태솔로 팀(돔놀 글리슨)은 성인이 된 날, 아버지(빌 나이)로부터 놀랄만한 가문의 비밀을 듣게 된다. 바로 시간을 되돌릴 수 있는 능력이 있다는 것! 그것이 비록 히틀러를 죽이거나 여신과 뜨거운 사랑을 할 수 는 없지만, 여자친구는 만들어 줄 순 있으리.. 꿈을 위해 런던으로 간 팀은 우연히 만난 사랑스러운 여인 메리에게 첫눈에 반하게 된다. 그녀의 사랑을 얻기 위해 자신의 특별한 능력을 마음껏 발휘하는 팀. 어설픈 대시, 어색한 웃음은 리와인드! 뜨거웠던 밤은 더욱 뜨겁게 리플레이! 꿈에 그리던 그녀와 매일매일 최고의 순간을 보낸다. 하지만 그와 그녀의 사랑이 완벽해 질수록 팀을 둘러싼 주변 상황들은 미묘하게 엇갈리고, 예상치 못한 사건들이 여기저기 나타나기 시작하는데…",
+            "actor": "Domhnall Gleeson, ...",
+            "director": "Richard Curtis",
+            "year": 2013
         },
         {
             "title": "Dont Look Up",
-            "genre": "comedy"
+            "genre": "comedy",
+            "link": "https://www.youtube.com/embed/RbIxYm3mKzI",
+            "story": "천문학과 대학원생 케이트 디비아스키(제니퍼 로렌스)와 담당 교수 랜들 민디 박사(레오나르도 디카프리오)는 태양계 내의 궤도를 돌고 있는 혜성이 지구와 직접 충돌하는 궤도에 들어섰다는 엄청난 사실을  발견한다. 하지만 지구를 파괴할 에베레스트 크기의 혜성이 다가온다는 불편한 소식에 아무도 신경 쓰지 않는다. 지구를 멸망으로 이끌지도 모르는 소식을 사람들에게 알리기 위해 언론 투어에 나선 두 사람, 혜성 충돌에 무관심한 대통령 올리언(메릴 스트립)과 그녀의 아들이자 비서실장 제이슨(조나 힐)의 집무실을 시작으로 브리(케이트 블란쳇)와 잭(타일러 페리)이 진행하는 인기 프로그램 ‘더 데일리 립’ 출연까지 이어가지만 성과가 없다. 혜성 충돌까지 남은 시간은 단 6개월, 24시간 내내 뉴스와 정보는 쏟아지고 사람들은 소셜미디어에 푹 빠져있는 시대이지만 정작 이 중요한 뉴스는 대중의 주의를 끌지 못한다. 도대체 어떻게 해야 세상 사람들이 하늘을 좀 올려다볼 수 있을까?!",
+            "actor": "Leonardo DiCaprio, ...",
+            "director": "adam McKay",
+            "year": 2021
         },
         {
             "title": "Cruella",
-            "genre": "comedy"
+            "genre": "comedy",
+            "link": "https://www.youtube.com/embed/gmRKv7n2If8",
+            "story": "처음부터 난 알았어. 내가 특별하단 걸 그게 불편한 인간들도 있겠지만 모두의 비위를 맞출 수는 없잖아? 그러다 보니 결국, 학교를 계속 다닐 수가 없었지 우여곡절 런던에 오게 된 나, 에스텔라는 재스퍼와 호레이스를 운명처럼 만났고 나의 뛰어난 패션 감각을 이용해 완벽한 변장과 빠른 손놀림으로 런던 거리를 싹쓸이 했어 도둑질이 지겹게 느껴질 때쯤, 꿈에 그리던 리버티 백화점에 낙하산(?)으로 들어가게 됐어 거리를 떠돌았지만 패션을 향한 나의 열정만큼은 언제나 진심이었거든 근데 이게 뭐야, 옷에는 손도 못 대보고 하루 종일 바닥 청소라니 인내심에 한계를 느끼고 있을 때, 런던 패션계를 꽉 쥐고 있는 남작 부인이 나타났어 천재는 천재를 알아보는 법! 난 남작 부인의 브랜드 디자이너로 들어가게 되었지 꿈을 이룰 것 같았던 순간도 잠시, 세상에 남작 부인이 ‘그런 사람’이었을 줄이야… 그래서 난 내가 누군지 보여주기로 했어 잘가, 에스텔라 난 이제 크루엘라야!",
+            "actor": "Emma Stone, ...",
+            "director": "Craig Gillespie",
+            "year": 2021
         }
     ]
 }
