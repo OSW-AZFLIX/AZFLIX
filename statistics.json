@@ -76,11 +76,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 9
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 3
                 },
                 {
                     "name": "hero",
@@ -100,11 +100,11 @@ DATA = {
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 6
                 },
                 {
                     "name": "culture",
-                    "rate": 3
+                    "rate": 11
                 },
                 {
                     "name": "audition",
@@ -112,7 +112,7 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 7
                 },
                 {
                     "name": "current affairs",
@@ -120,15 +120,15 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 8
                 },
                 {
                     "name": "reality",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 5
                 },
                 {
                     "name": "horror",
@@ -146,11 +146,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 15
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 2
                 },
                 {
                     "name": "hero",
@@ -166,11 +166,11 @@ DATA = {
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 9
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 7
                 },
                 {
                     "name": "culture",
@@ -182,11 +182,11 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 5
                 },
                 {
                     "name": "current affairs",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "fantasy",
@@ -198,7 +198,7 @@ DATA = {
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "horror",
@@ -206,7 +206,7 @@ DATA = {
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 10
                 }
             ]
         },
@@ -216,11 +216,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 14
                 },
                 {
                     "name": "hero",
@@ -228,15 +228,15 @@ DATA = {
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 10
                 },
                 {
                     "name": "comedy",
@@ -248,11 +248,11 @@ DATA = {
                 },
                 {
                     "name": "audition",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 5
                 },
                 {
                     "name": "current affairs",
@@ -272,7 +272,7 @@ DATA = {
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "romance",
@@ -286,11 +286,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 10
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 7
                 },
                 {
                     "name": "hero",
@@ -298,11 +298,11 @@ DATA = {
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "SF",
@@ -314,7 +314,7 @@ DATA = {
                 },
                 {
                     "name": "culture",
-                    "rate": 3
+                    "rate": 7
                 },
                 {
                     "name": "audition",
@@ -322,7 +322,7 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 5
                 },
                 {
                     "name": "current affairs",
@@ -330,23 +330,23 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 10
                 },
                 {
                     "name": "reality",
-                    "rate": 5
+                    "rate": 9
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 3
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 4
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 6
                 }
             ]
         },
@@ -356,11 +356,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 10
                 },
                 {
                     "name": "hero",
@@ -368,23 +368,23 @@ DATA = {
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 5
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 8
                 },
                 {
                     "name": "culture",
-                    "rate": 3
+                    "rate": 6
                 },
                 {
                     "name": "audition",
@@ -396,11 +396,11 @@ DATA = {
                 },
                 {
                     "name": "current affairs",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 10
                 },
                 {
                     "name": "reality",
@@ -408,7 +408,7 @@ DATA = {
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 5
                 },
                 {
                     "name": "horror",
@@ -416,7 +416,7 @@ DATA = {
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 7
                 }
             ]
         },
@@ -426,11 +426,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 15
                 },
                 {
                     "name": "hero",
@@ -438,11 +438,11 @@ DATA = {
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "SF",
@@ -450,11 +450,11 @@ DATA = {
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 11
                 },
                 {
                     "name": "culture",
-                    "rate": 3
+                    "rate": 1
                 },
                 {
                     "name": "audition",
@@ -462,7 +462,7 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 13
                 },
                 {
                     "name": "current affairs",
@@ -470,23 +470,23 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "reality",
-                    "rate": 5
+                    "rate": 10
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 7
                 }
             ]
         },
@@ -496,11 +496,11 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 11
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 6
                 },
                 {
                     "name": "hero",
@@ -508,19 +508,19 @@ DATA = {
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 4
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 6
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 4
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 12
                 },
                 {
                     "name": "culture",
@@ -528,7 +528,7 @@ DATA = {
                 },
                 {
                     "name": "audition",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "entertainment",
@@ -540,15 +540,15 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 10
                 },
                 {
                     "name": "reality",
-                    "rate": 5
+                    "rate": 6
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 6
                 },
                 {
                     "name": "horror",
@@ -566,19 +566,19 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
-                },
-                {
-                    "name": "drama",
-                    "rate": 12
-                },
-                {
-                    "name": "hero",
                     "rate": 7
                 },
                 {
+                    "name": "drama",
+                    "rate": 10
+                },
+                {
+                    "name": "hero",
+                    "rate": 4
+                },
+                {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 8
                 },
                 {
                     "name": "action",
@@ -586,11 +586,11 @@ DATA = {
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 5
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 11
                 },
                 {
                     "name": "culture",
@@ -598,11 +598,11 @@ DATA = {
                 },
                 {
                     "name": "audition",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 6
                 },
                 {
                     "name": "current affairs",
@@ -610,23 +610,23 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 9
                 },
                 {
                     "name": "reality",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 3
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 7
                 }
             ]
         },
@@ -636,35 +636,35 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 15
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 2
                 },
                 {
                     "name": "hero",
-                    "rate": 7
+                    "rate": 17
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 2
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 3
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 3
                 },
                 {
                     "name": "culture",
-                    "rate": 3
+                    "rate": 9
                 },
                 {
                     "name": "audition",
@@ -680,7 +680,7 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 4
                 },
                 {
                     "name": "reality",
@@ -696,7 +696,7 @@ DATA = {
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 8
                 }
             ]
         },
@@ -706,19 +706,19 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "drama",
-                    "rate": 12
+                    "rate": 14
                 },
                 {
                     "name": "hero",
-                    "rate": 7
+                    "rate": 3
                 },
                 {
                     "name": "animation",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "action",
@@ -726,7 +726,7 @@ DATA = {
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 9
                 },
                 {
                     "name": "comedy",
@@ -742,7 +742,7 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 5
                 },
                 {
                     "name": "current affairs",
@@ -750,7 +750,7 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 10
                 },
                 {
                     "name": "reality",
@@ -758,15 +758,15 @@ DATA = {
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 3
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 7
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 7
                 }
             ]
         },
@@ -776,7 +776,7 @@ DATA = {
             "genre": [
                 {
                     "name": "music",
-                    "rate": 5
+                    "rate": 15
                 },
                 {
                     "name": "drama",
@@ -784,7 +784,7 @@ DATA = {
                 },
                 {
                     "name": "hero",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "animation",
@@ -792,15 +792,15 @@ DATA = {
                 },
                 {
                     "name": "action",
-                    "rate": 5
+                    "rate": 15
                 },
                 {
                     "name": "SF",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "comedy",
-                    "rate": 9
+                    "rate": 4
                 },
                 {
                     "name": "culture",
@@ -812,7 +812,7 @@ DATA = {
                 },
                 {
                     "name": "entertainment",
-                    "rate": 8
+                    "rate": 3
                 },
                 {
                     "name": "current affairs",
@@ -820,7 +820,7 @@ DATA = {
                 },
                 {
                     "name": "fantasy",
-                    "rate": 7
+                    "rate": 17
                 },
                 {
                     "name": "reality",
@@ -828,15 +828,15 @@ DATA = {
                 },
                 {
                     "name": "history",
-                    "rate": 7
+                    "rate": 2
                 },
                 {
                     "name": "horror",
-                    "rate": 5
+                    "rate": 3
                 },
                 {
                     "name": "romance",
-                    "rate": 5
+                    "rate": 2
                 }
             ]
         }
