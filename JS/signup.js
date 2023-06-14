@@ -35,7 +35,7 @@ $(document).ready(function (){
     } else if($("#cbtn1").is(":checked") == false) {
       alert("개인정보 약관동의는 필수입니다.");
     } else {
-      
+      savelocalData();
       alert("회원가입 되었습니다.");
       location.replace("infopage.html");
     }
@@ -43,4 +43,17 @@ $(document).ready(function (){
   })
   
 })
+
+function savelocalData(){     
+  const id = $("#uid").val();
+  const pwd = $("#upw").val();
+  let data = [id, pwd];
+
+  // add new member
+  // let newMember = [id, pwd];
+  // data.push(newMember);
+
+  // write JSON data
+  localStorage.setItem("member" + (localStorage.length + 1), JSON.stringify(data));
+}
 
