@@ -10,18 +10,18 @@
 }
 
 #topLogo{
-  width: 55%; 
-  height: 80%;
+  width: 170px; 
+  height: 70px;
   margin: 3% 0 1.5% 2%;
 }
 
 .login-body{
+  margin: 12% auto;
   position: absolute;
 }
 
 .login-box{
   width: 100%;
-  margin: 12% auto;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -76,6 +76,10 @@
   height: 15%;
   padding: 3.5% 0 3.5% 0;
   font-size: 15px;
+  background-color: #C82333;
+}
+#loginBtn.highlight{
+  background-color: #c82333a8;
 }
 
 #save-btn{

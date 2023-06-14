@@ -1,4 +1,12 @@
-$(function (){
+$(document).ready(function (){
+
+  $("#loginBtn").mouseenter(function () { 
+    $(this).addClass("highlight");
+  });
+  $("#loginBtn").mouseleave(function () { 
+    $(this).removeClass("highlight");
+  });
+
   $("#loginBtn").click(function(){
     var userdata = JSON.parse(JSON.stringify(Member));
     var id = $("#uid").val();
