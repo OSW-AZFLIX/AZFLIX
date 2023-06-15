@@ -37,7 +37,7 @@ $(document).ready(function (){
     } else {
       savelocalData();
       alert("회원가입 되었습니다.");
-      location.replace("infopage.html");
+      location.replace("../index.html");
     }
   
   })
