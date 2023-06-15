@@ -52,6 +52,7 @@ function showModal(obj) {
                 document.getElementById("director").innerHTML = moviedata.movies[i].director;
 
                 modals[0].style.display = "block";
+                break;
             }
         }
     }
